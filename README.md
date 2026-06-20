@@ -12,8 +12,11 @@
 | 交叉纠正率 | — | — | **72% (71/98)** | — |
 
 ## 系统架构
-<video src="https://raw.githubusercontent.com/xwzheclq/Agent/main/v/demo.mp4" controls width="100%"></video>
-```
+<a href="https://raw.githubusercontent.com/xwzheclq/Agent/main/v/demo.mp4">
+  <img width="1247" height="683" alt="1" src="https://github.com/user-attachments/assets/4afd9240-4d8c-4a19-a44c-10adbda064cc" />
+</a>
+
+
 用户输入
   │
   ▼

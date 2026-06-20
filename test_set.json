@@ -1,0 +1,3356 @@
+[
+  {
+    "id": "T0001",
+    "category": "简单事实",
+    "question": "APT29 是哪个国家的APT组织？",
+    "ground_truth": "APT29 是俄罗斯的APT组织（又称Cozy Bear / Midnight Blizzard），归因于俄罗斯对外情报局(SVR)",
+    "trap": "容易混淆归属为中国或朝鲜",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "俄罗斯",
+      "SVR/对外情报局",
+      "Cozy Bear"
+    ]
+  },
+  {
+    "id": "T0002",
+    "category": "简单事实",
+    "question": "WannaCry 勒索软件爆发于哪一年？",
+    "ground_truth": "WannaCry 于2017年5月爆发，利用永恒之蓝(EternalBlue)漏洞传播",
+    "trap": "容易混淆为2016或2018年",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "2017年",
+      "永恒之蓝/EternalBlue"
+    ]
+  },
+  {
+    "id": "T0003",
+    "category": "简单事实",
+    "question": "Stuxnet 病毒的主要攻击目标是什么？",
+    "ground_truth": "Stuxnet 针对伊朗纳坦兹铀浓缩设施的西门子SCADA控制系统，旨在破坏离心机",
+    "trap": "容易混淆为攻击电力网或金融系统",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "伊朗",
+      "核设施/离心机",
+      "西门子SCADA"
+    ]
+  },
+  {
+    "id": "T0004",
+    "category": "简单事实",
+    "question": "Cobalt Strike 是什么类型的工具？",
+    "ground_truth": "Cobalt Strike 是一款商业化渗透测试工具(红队工具)，但也被大量APT组织和勒索软件团伙用于后渗透阶段",
+    "trap": "容易混淆为纯恶意软件而非合法工具",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "渗透测试/红队",
+      "商业化",
+      "被APT滥用"
+    ]
+  },
+  {
+    "id": "T0005",
+    "category": "简单事实",
+    "question": "APT28 的别名有哪些？",
+    "ground_truth": "APT28 又称 Fancy Bear、Sofacy、Sednit、Pawn Storm、STRONTIUM，归因于俄罗斯GRU",
+    "trap": "容易与APT29别名混淆",
+    "source_types": [
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "Fancy Bear",
+      "Sofacy",
+      "GRU"
+    ]
+  },
+  {
+    "id": "T0006",
+    "category": "简单事实",
+    "question": "Mimikatz 的作用是什么？",
+    "ground_truth": "Mimikatz 用于从 Windows 内存中提取明文密码、哈希和 Kerberos 票据，广泛用于凭证窃取和横向移动",
+    "trap": "容易混淆为远程控制工具",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "凭证窃取",
+      "Windows",
+      "哈希/票据"
+    ]
+  },
+  {
+    "id": "T0007",
+    "category": "简单事实",
+    "question": "NotPetya 攻击起始于哪个国家但实际影响全球？",
+    "ground_truth": "NotPetya 2017年从乌克兰开始（通过M.E.Doc会计软件更新机制），迅速扩散全球造成超百亿美元损失",
+    "trap": "容易混淆为普通勒索软件而非数据擦除器",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "乌克兰",
+      "M.E.Doc",
+      "擦除器"
+    ]
+  },
+  {
+    "id": "T0008",
+    "category": "简单事实",
+    "question": "TrickBot 最初是什么类型的恶意软件？",
+    "ground_truth": "TrickBot 最初是银行木马(2016年)，后演变为模块化恶意软件平台，常作为其他勒索软件的前置载荷",
+    "trap": "容易混淆为仅勒索软件",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "银行木马",
+      "模块化",
+      "2016年"
+    ]
+  },
+  {
+    "id": "T0009",
+    "category": "简单事实",
+    "question": "SolarWinds 事件中被植入后门的软件叫什么？",
+    "ground_truth": "SolarWinds Orion 平台被植入 SUNBURST 后门（也称 Solorigate），于2020年底被发现",
+    "trap": "容易混淆为SUNSPOT或TEARDROP",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "Orion",
+      "SUNBURST",
+      "2020年"
+    ]
+  },
+  {
+    "id": "T0010",
+    "category": "简单事实",
+    "question": "APT10 通常被归因于哪个国家？",
+    "ground_truth": "APT10（又称 Stone Panda / MenuPass / Red Apollo）被归因于中国，以长期网络间谍活动著称",
+    "trap": "容易混淆为俄罗斯或朝鲜",
+    "source_types": [
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "中国",
+      "Stone Panda",
+      "间谍活动"
+    ]
+  },
+  {
+    "id": "T0011",
+    "category": "简单事实",
+    "question": "Emotet 最初通过什么方式传播？",
+    "ground_truth": "Emotet 主要通过带有恶意宏的钓鱼邮件附件（Word/Excel文档）传播，被称为恶意软件界的'瑞士军刀'",
+    "trap": "容易混淆为漏洞利用传播",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "钓鱼邮件",
+      "恶意宏",
+      "Word/Excel"
+    ]
+  },
+  {
+    "id": "T0012",
+    "category": "简单事实",
+    "question": "DarkHotel 组织的攻击特点是什么？",
+    "ground_truth": "DarkHotel 通过劫持高档酒店WiFi网络，在目标入住期间定向投递恶意软件，主要针对商务人士和政府官员",
+    "trap": "容易与DarkHalo混淆为同一组织",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "酒店WiFi",
+      "商务人士",
+      "劫持"
+    ]
+  },
+  {
+    "id": "T0013",
+    "category": "简单事实",
+    "question": "Log4j 漏洞 (CVE-2021-44228) 的严重性评级是什么？",
+    "ground_truth": "CVSS 10.0（最高严重级别），影响 Log4j 2.x 的 JNDI 注入漏洞，几乎影响所有Java应用",
+    "trap": "容易混淆CVSS评分或认为只影响特定版本",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "10.0",
+      "JNDI",
+      "Log4j 2.x"
+    ]
+  },
+  {
+    "id": "T0014",
+    "category": "简单事实",
+    "question": "Shamoon 攻击的主要特点是什么？",
+    "ground_truth": "Shamoon 以磁盘擦除为目的（硬盘数据不可恢复），2012年和2016年攻击沙特能源企业，归因于伊朗",
+    "trap": "容易混淆为勒索软件或间谍软件",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "磁盘擦除",
+      "沙特",
+      "伊朗"
+    ]
+  },
+  {
+    "id": "T0015",
+    "category": "简单事实",
+    "question": "Equation Group 被关联于哪个国家？",
+    "ground_truth": "Equation Group 被关联于美国NSA，其工具包括 EquationLaser、EquationDrug 等高度复杂恶意软件",
+    "trap": "容易混淆为俄罗斯或中国的组织",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "美国",
+      "NSA",
+      "EquationLaser"
+    ]
+  },
+  {
+    "id": "T0016",
+    "category": "简单事实",
+    "question": "CVE-2023-38831 涉及哪个软件？",
+    "ground_truth": "CVE-2023-38831 是 WinRAR 代码执行漏洞，被 APT29/Ghostwriter 组织用于攻击大使馆",
+    "trap": "容易混淆为7-Zip或WinZip的漏洞",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "WinRAR",
+      "APT29",
+      "代码执行"
+    ]
+  },
+  {
+    "id": "T0017",
+    "category": "简单事实",
+    "question": "Poison Ivy 是什么类型的工具？",
+    "ground_truth": "Poison Ivy 是远程访问木马(RAT)，由APT1/Comment Crew大量使用，支持键盘记录、屏幕截图、文件传输",
+    "trap": "容易混淆为勒索软件或蠕虫",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "RAT/远程访问木马",
+      "APT1",
+      "键盘记录"
+    ]
+  },
+  {
+    "id": "T0018",
+    "category": "简单事实",
+    "question": "HermeticWiper 在什么背景下被使用？",
+    "ground_truth": "HermeticWiper 在2022年2月俄乌冲突前夕针对乌克兰组织的磁盘擦除攻击，是继WhisperGate之后的新型擦除器",
+    "trap": "容易混淆为普通勒索软件",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "2022年2月",
+      "乌克兰",
+      "磁盘擦除"
+    ]
+  },
+  {
+    "id": "T0019",
+    "category": "简单事实",
+    "question": "CVE-2017-0144 (永恒之蓝) 影响了哪个协议？",
+    "ground_truth": "影响了微软 SMBv1 协议，是 WannaCry 和 NotPetya 传播的核心漏洞",
+    "trap": "容易混淆为RDP或HTTP协议漏洞",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "SMBv1",
+      "微软",
+      "WannaCry"
+    ]
+  },
+  {
+    "id": "T0020",
+    "category": "简单事实",
+    "question": "DarkSide 勒索软件的著名受害者是谁？",
+    "ground_truth": "DarkSide 最著名的受害者是美国 Colonial Pipeline（殖民管道公司），2021年5月导致美国东海岸燃油供应中断",
+    "trap": "容易混淆为JBS或Kaseya",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "Colonial Pipeline",
+      "2021年",
+      "燃油"
+    ]
+  },
+  {
+    "id": "T0021",
+    "category": "简单事实",
+    "question": "QakBot (QBot) 主要传播方式有哪些？",
+    "ground_truth": "QakBot 主要通过带恶意附件的钓鱼邮件传播（银行木马+邮件蠕虫），也通过 Emotet 投放",
+    "trap": "容易混淆为漏洞利用传播",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "钓鱼邮件",
+      "银行木马",
+      "Emotet"
+    ]
+  },
+  {
+    "id": "T0022",
+    "category": "简单事实",
+    "question": "APT37 的别名和归属是什么？",
+    "ground_truth": "APT37 又称 Reaper、ScarCruft、Group123，归因于朝鲜，主要目标为韩国及脱北者",
+    "trap": "容易与APT38混淆",
+    "source_types": [
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "朝鲜",
+      "Reaper",
+      "韩国"
+    ]
+  },
+  {
+    "id": "T0023",
+    "category": "简单事实",
+    "question": "Carbanak 组织的攻击特点是什么？",
+    "ground_truth": "Carbanak (FIN7前身) 以攻击金融机构著称，通过ATM提款机攻击和SWIFT系统欺诈窃取数十亿美元",
+    "trap": "容易混淆为信用卡数据窃取组织",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "金融机构",
+      "ATM",
+      "SWIFT"
+    ]
+  },
+  {
+    "id": "T0024",
+    "category": "简单事实",
+    "question": "PlugX 是什么类型的恶意软件？",
+    "ground_truth": "PlugX 是远程访问木马(RAT)，由多个APT组织（尤其是中国关联组织）使用，支持HTTP/DNS多通道通信",
+    "trap": "容易混淆为键盘记录器",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "RAT",
+      "中国关联",
+      "多通道"
+    ]
+  },
+  {
+    "id": "T0025",
+    "category": "简单事实",
+    "question": "Ryuk 勒索软件与 TrickBot 的关系是什么？",
+    "ground_truth": "Ryuk 通常通过 TrickBot 感染链投放，两者都由俄罗斯网络犯罪团伙 Wizard Spider 运营",
+    "trap": "容易混淆为同一恶意软件的不同版本",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "TrickBot",
+      "Wizard Spider",
+      "俄罗斯"
+    ]
+  },
+  {
+    "id": "T0026",
+    "category": "简单事实",
+    "question": "APT33 的别名和主要目标是什么？",
+    "ground_truth": "APT33 又称 Elfin、Refined Kitten，归因于伊朗，主要目标为航空和能源行业",
+    "trap": "容易与APT34混淆",
+    "source_types": [
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "伊朗",
+      "航空",
+      "能源"
+    ]
+  },
+  {
+    "id": "T0027",
+    "category": "简单事实",
+    "question": "What is FIN7 known for?",
+    "ground_truth": "FIN7 is a financially motivated Russian cybercrime group known for attacking restaurant/hospitality sectors with point-of-sale malware and later evolving to ransomware operations",
+    "trap": "容易被归类为国家APT而非经济动机",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "经济动机",
+      "餐饮/酒店",
+      "俄罗斯"
+    ]
+  },
+  {
+    "id": "T0028",
+    "category": "简单事实",
+    "question": "BazarLoader 与哪个组织直接相关？",
+    "ground_truth": "BazarLoader (BazarBackdoor) 由 TrickBot/Wizard Spider 团伙开发，常作为 Ryuk/Conti 勒索软件的前置载荷",
+    "trap": "容易混淆为独立恶意软件家族",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "TrickBot",
+      "Wizard Spider",
+      "后门"
+    ]
+  },
+  {
+    "id": "T0029",
+    "category": "简单事实",
+    "question": "CVE-2020-1472 (Zerologon) 的攻击原理是什么？",
+    "ground_truth": "Zerologon 利用微软 Netlogon 协议中的加密漏洞(CVSS 10.0)，允许攻击者无需凭证获取域控制器管理员权限",
+    "trap": "容易混淆为RDP或Kerberos漏洞",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Netlogon",
+      "域控制器",
+      "10.0"
+    ]
+  },
+  {
+    "id": "T0030",
+    "category": "简单事实",
+    "question": "WhisperGate 攻击事件的首个受害国是？",
+    "ground_truth": "WhisperGate 2022年1月首先攻击乌克兰，伪装成勒索软件但实际是磁盘擦除器，预示俄乌网络战升级",
+    "trap": "容易混淆为普通勒索软件攻击",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "乌克兰",
+      "2022年1月",
+      "伪装勒索"
+    ]
+  },
+  {
+    "id": "T0031",
+    "category": "简单事实",
+    "question": "常见的 APT 恶意软件沙箱规避技术有哪些？",
+    "ground_truth": "包括检测虚拟机/沙箱环境、时间延迟执行、用户交互检测、API unhooking、加密/混淆、进程注入等",
+    "trap": "容易只列出加密而不提VM检测",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "虚拟机检测",
+      "时间延迟",
+      "进程注入"
+    ]
+  },
+  {
+    "id": "T0032",
+    "category": "简单事实",
+    "question": "Turla (Venomous Bear) 组织最知名的特征是什么？",
+    "ground_truth": "Turla (又称 Snake/Uroburos) 归因于俄罗斯 FSB，以使用卫星通信(C2)和劫持合法基础设施著称",
+    "trap": "容易混淆为美国或英国组织",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "俄罗斯",
+      "卫星通信",
+      "Snake"
+    ]
+  },
+  {
+    "id": "T0033",
+    "category": "简单事实",
+    "question": "2021年 ProxyLogon 漏洞影响了哪个产品？",
+    "ground_truth": "ProxyLogon (CVE-2021-26855) 影响 Microsoft Exchange Server，允许未认证攻击者远程执行代码",
+    "trap": "容易混淆为SharePoint或SQL Server漏洞",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "Exchange Server",
+      "CVE-2021-26855",
+      "远程代码执行"
+    ]
+  },
+  {
+    "id": "T0034",
+    "category": "简单事实",
+    "question": "2021年7月全球性的勒索攻击事件主要利用了哪家厂商产品的漏洞？",
+    "ground_truth": "Kaseya VSA 远程管理平台被 REvil/Sodinokibi 勒索团伙利用，影响全球数千家企业",
+    "trap": "容易混淆为SolarWinds或ConnectWise",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "Kaseya",
+      "REvil",
+      "远程管理"
+    ]
+  },
+  {
+    "id": "T0035",
+    "category": "简单事实",
+    "question": "Hafnium 攻击组织利用了哪些 Exchange Server 漏洞？",
+    "ground_truth": "Hafnium (中国关联) 在2021年利用 Exchange Server 的 ProxyLogon 等四个0day漏洞针对美国目标",
+    "trap": "容易混淆为攻击Cloudflare或谷歌",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Exchange Server",
+      "中国关联",
+      "0day"
+    ]
+  },
+  {
+    "id": "T0036",
+    "category": "简单事实",
+    "question": "AppleJeus 恶意软件与哪个组织相关？",
+    "ground_truth": "AppleJeus 由朝鲜 Lazarus 组织开发，以加密货币交易所为目标，伪装成合法加密货币交易软件（支持macOS/Windows）",
+    "trap": "容易混淆为俄罗斯组织",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Lazarus",
+      "朝鲜",
+      "加密货币"
+    ]
+  },
+  {
+    "id": "T0037",
+    "category": "简单事实",
+    "question": "CVE-2022-30190 (Follina) 利用了什么机制？",
+    "ground_truth": "Follina 利用 Microsoft 支持诊断工具(MSDT)的远程代码执行漏洞，通过 Word 文档触发，无需启用宏",
+    "trap": "容易认为是宏病毒",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "MSDT",
+      "Word",
+      "无宏"
+    ]
+  },
+  {
+    "id": "T0038",
+    "category": "简单事实",
+    "question": "REvil (Sodinokibi) 和 GandCrab 之间有什么关联？",
+    "ground_truth": "REvil 被广泛认为是由前 GandCrab 成员创建的后续项目，延续了类似的勒索即服务(RaaS)运营模式",
+    "trap": "容易混淆为完全无关的两个组织",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "GandCrab",
+      "后续",
+      "RaaS"
+    ]
+  },
+  {
+    "id": "T0039",
+    "category": "简单事实",
+    "question": "Sandworm 组织与俄罗斯军事情报部门的关联是什么？",
+    "ground_truth": "Sandworm (Voodoo Bear) 被归因于俄罗斯 GRU 第74455部队，负责 BlackEnergy、NotPetya 和乌克兰电网攻击",
+    "trap": "容易混淆为FSB下属组织",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "GRU",
+      "74455部队",
+      "BlackEnergy"
+    ]
+  },
+  {
+    "id": "T0040",
+    "category": "简单事实",
+    "question": "Beacon 这个名称通常与哪个红队框架相关？",
+    "ground_truth": "Beacon 是 Cobalt Strike 的默认后渗透Payload，也是 APT41/APT29 等组织最常用的C2载荷之一",
+    "trap": "容易以为BEACON是一个独立恶意软件",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Cobalt Strike",
+      "Payload",
+      "C2"
+    ]
+  },
+  {
+    "id": "T0041",
+    "category": "多源交叉",
+    "question": "APT29 使用了哪些已知的恶意软件工具集？它们各自在哪些攻击事件中被使用？",
+    "ground_truth": "APT29 使用过：SUNBURST (SolarWinds供应链攻击 2020)、TEARDROP (SolarWinds后续载荷)、WellMess/WellMail (疫苗研究机构攻击 2020)、CosmicDuke/SeaDuke (外交机构攻击)、CozyCar/CozyDuke (前身工具)、MiniDuke (早期工具)、Cobalt Strike (多事件使用)。覆盖攻击事件包括SolarWinds、COVID疫苗研究、外交机构长期的鱼叉式钓鱼活动。",
+    "trap": "容易遗漏SUNBURST与TEARDROP的关联，或混淆WellMess为其他组织工具",
+    "source_types": [
+      "知识图谱",
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "SUNBURST",
+      "SolarWinds",
+      "WellMess",
+      "CozyCar",
+      "多事件覆盖"
+    ]
+  },
+  {
+    "id": "T0042",
+    "category": "多源交叉",
+    "question": "LockBit 勒索软件从 LockBit 1.0 到 LockBit 3.0 经历了哪些技术演进？",
+    "ground_truth": "LockBit 1.0 (2019): 基础勒索+自助解密门户。LockBit 2.0 (2021): 增加数据泄露网站、DDoS三重勒索、大幅加快加密速度。LockBit 3.0 (2022): 引入零日漏洞利用能力、Bug Bounty计划、Linux加密器改进。持续使用合法的渗透测试工具如Cobalt Strike。",
+    "trap": "容易混淆各版本的技术特征差异",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "1.0/2.0/3.0时间线",
+      "三重勒索",
+      "Bug Bounty"
+    ]
+  },
+  {
+    "id": "T0043",
+    "category": "多源交叉",
+    "question": "Lazarus 组织与 Bluenoroff、Andariel 之间是什么关系？分别针对什么目标？",
+    "ground_truth": "三者均为朝鲜黑客组织，但各有侧重：Lazarus Group (核心，直接受朝鲜侦察总局指挥，多目标)；Bluenoroff (Lazarus下属，专攻金融/加密货币，SWIFT攻击)；Andariel (Lazarus下属，专攻韩国政府和军事)。部分安全厂商将它们视为同一伞组织下的分组。",
+    "trap": "容易将三个组织混为一谈或错误认为互相独立",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Lazarus核心",
+      "Bluenoroff金融",
+      "Andariel韩国"
+    ]
+  },
+  {
+    "id": "T0044",
+    "category": "多源交叉",
+    "question": "2023年至今的 MOVEit 文件传输漏洞被哪些勒索组织利用？影响了哪些行业？",
+    "ground_truth": "MOVEit Transfer SQL注入漏洞(CVE-2023-34362)被 Clop (TA505/Lace Tempest) 勒索组织利用，影响了BBC、British Airways、Shell、美国政府机构、医疗机构、大学等数千组织。特点是高度自动化的数据窃取+勒索。",
+    "trap": "容易遗漏具体行业类型或误将其他组织(如LockBit)关联到此事件",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Clop",
+      "CVE-2023-34362",
+      "BBC",
+      "Shell"
+    ]
+  },
+  {
+    "id": "T0045",
+    "category": "多源交叉",
+    "question": "Conti 勒索软件的技术特征、运营模式和最终解散原因是什么？",
+    "ground_truth": "技术特征：超快加密速度(多线程AES)+Windows API重启模式绕过防护+凭据窃取。运营模式：勒索即服务(RaaS)+支付分成+数据泄露网站双敲诈。解散原因：2022年2月公开支持俄罗斯后内部冲突+源代码泄露+核心成员分裂为其他团伙(如BlackBasta、Hive等)。",
+    "trap": "容易遗漏支持俄罗斯引发的政治后果",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "RaaS",
+      "支持俄罗斯",
+      "源代码泄露"
+    ]
+  },
+  {
+    "id": "T0046",
+    "category": "多源交叉",
+    "question": "什么是MITRE ATT&CK框架？APT组织如何利用PowerShell进行攻击？",
+    "ground_truth": "MITRE ATT&CK 是全球广泛使用的攻击行为知识库(TTPs)，覆盖14+战术类别。PowerShell(T1059.001)是最常用的执行技术之一，APT组织利用其实现无文件攻击、LOLBin执行、凭据窃取和横向移动。具体包括：Empire框架、PowerSploit工具集、Invoke-Mimikatz脚本等。",
+    "trap": "容易遗漏具体ATT&CK技术编号或仅泛泛而谈",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "MITRE ATT&CK",
+      "T1059.001",
+      "无文件攻击"
+    ]
+  },
+  {
+    "id": "T0047",
+    "category": "多源交叉",
+    "question": "BlackCat (ALPHV) 勒索软件的独特技术特征是什么？被FBI如何打击？",
+    "ground_truth": "BlackCat 是首个大规模使用Rust语言编写的勒索软件，跨平台(Win/Linux/VMware ESXi)，使用Configurable加密方案。2023年12月FBI联合国际执法通过开发解密工具+查封泄露网站实施打击，但BlackCat随后报复性攻击了医疗机构。",
+    "trap": "容易忽略Rust语言在规避检测方面的优势",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Rust语言",
+      "FBI",
+      "解密工具"
+    ]
+  },
+  {
+    "id": "T0048",
+    "category": "多源交叉",
+    "question": "DarkSide 和 BlackMatter 之间是什么关系？",
+    "ground_truth": "BlackMatter 被广泛认为是 DarkSide 在Colonial Pipeline事件后于2021年7月的'品牌重塑'。二者共享代码基础、加密方案和运营模式。BlackMatter声称继承了DarkSide和REvil'最好的功能'，但在2021年11月因受到执法压力宣告关闭。",
+    "trap": "容易认为两者完全无关",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "品牌重塑",
+      "Colonial Pipeline",
+      "执法压力"
+    ]
+  },
+  {
+    "id": "T0049",
+    "category": "多源交叉",
+    "question": "APT41 被描述为同时从事什么类型的活动？这种双重身份有何特点？",
+    "ground_truth": "APT41（Wicked Panda/Double Dragon）被归因于中国，独特之处在于同时从事国家支持的间谍活动和出于经济动机的网络犯罪（勒索/挖矿/信用卡窃取）。这种'双轨制'使其在APT组织中非常罕见，也是归因复杂化的原因之一。",
+    "trap": "容易把APT41归为纯国家APT或纯犯罪组织",
+    "source_types": [
+      "向量库",
+      "知识图谱",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "间谍活动",
+      "网络犯罪",
+      "双轨制"
+    ]
+  },
+  {
+    "id": "T0050",
+    "category": "多源交叉",
+    "question": "Cloud Atlas 攻击组织的独特攻击手法和2024年的最新活动有哪些？",
+    "ground_truth": "Cloud Atlas (Inception) 是一个长期存在的网络间谍组织。独特手法：使用RTF文档中的模板注入+PowerShell后门。2024年活动：针对东欧和俄罗斯政府的鱼叉式钓鱼活动，使用新型VBShower后门和PowerShower变种。攻击链通常包含多层混淆和反沙箱技术。",
+    "trap": "容易与Cloud Hopper混淆",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "模板注入",
+      "东欧",
+      "VBShower"
+    ]
+  },
+  {
+    "id": "T0051",
+    "category": "多源交叉",
+    "question": "什么是威胁情报中的PDI(Pain Diamond Indicator)模型？与Diamond Model有何区别？",
+    "ground_truth": "Diamond Model 是经典威胁建模框架（对手+能力+基础设施+受害者四要素）。PDI(Pain Diamond Indicator)在此基础上强调可操作的指标，即在四个维度中找到攻击方最'痛苦'的环节(基础设施、工具、战术等)来制定防御策略。两者是补充关系而非替代。",
+    "trap": "容易把PDI和Diamond Model完全混淆",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Diamond Model",
+      "四要素",
+      "防御"
+    ]
+  },
+  {
+    "id": "T0052",
+    "category": "多源交叉",
+    "question": "2024年Volt Typhoon组织的活动揭示了中国APT组织对关键基础设施的新战术，具体是什么？",
+    "ground_truth": "Volt Typhoon 是2023年5月被公开的中国关联APT组织，专门针对美国关键基础设施（通信、能源、交通、水利）。核心战术：使用LOLBins(合法系统工具)进行'Living Off the Land'攻击，极大减少恶意软件痕迹。这代表了中国APT从传统间谍向预置破坏能力的新转变。",
+    "trap": "容易只关注技术细节而忽略战略转变的含义",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Volt Typhoon",
+      "LOLBins",
+      "关键基础设施"
+    ]
+  },
+  {
+    "id": "T0053",
+    "category": "多源交叉",
+    "question": "常见的勒索软件攻击链中，初始访问(Initial Access)的5种最常见方式是什么？",
+    "ground_truth": "1) 钓鱼邮件(含恶意附件/链接) 2) RDP暴力破解/弱密码 3) VPN/远程访问漏洞利用 4) 通过IT服务商/供应链入侵 5) 利用面向公众应用的漏洞(如Exchange、Citrix、Confluence)。其中钓鱼+RDP合计占比超过60%。",
+    "trap": "容易遗漏供应链或错误排序",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "钓鱼",
+      "RDP",
+      "VPN漏洞",
+      "供应链"
+    ]
+  },
+  {
+    "id": "T0054",
+    "category": "多源交叉",
+    "question": "什么是IOC(Indicators of Compromise)与IOA(Indicators of Attack)的区别？为什么IOA对APT检测更有效？",
+    "ground_truth": "IOC是入侵后的痕迹证据(哈希、IP、域名)，属于事后反应式指标。IOA是攻击行为本身的特征(如PowerShell下载执行、凭据dump、横向移动行为序列)，属于行为检测。IOA对APT更有效因为APT常变换基础设施(IP/域名)但行为模式相对稳定。",
+    "trap": "容易把两者简单对立而非互补关系",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "IOC事后",
+      "IOA行为",
+      "APT行为模式"
+    ]
+  },
+  {
+    "id": "T0055",
+    "category": "多源交叉",
+    "question": "什么是网络杀伤链(Cyber Kill Chain)模型？在实际APT分析中各阶段的典型数据来源是什么？",
+    "ground_truth": "Lockheed Martin的Cyber Kill Chain包含7阶段：侦察(网络扫描)、武器化(恶意文档)、投递(钓鱼邮件)、利用(CVE触发)、安装(后门)、C2(心跳通信)、目标行动(数据窃取/破坏)。典型数据来源：每个阶段在SIEM/EDR中有不同的日志类型和告警。",
+    "trap": "容易遗漏日志来源的具体映射",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "7阶段",
+      "Lockheed Martin",
+      "SIEM/EDR"
+    ]
+  },
+  {
+    "id": "T0056",
+    "category": "多源交叉",
+    "question": "Dark Pink (APT-C-55) 2023-2024年的活动特点是什么？",
+    "ground_truth": "Dark Pink 是针对东南亚和欧洲政府/军事实体的APT组织。特点：使用自定义的KamiKakaBot后门+Telegram作为C2的变种通信方案+鱼叉式钓鱼技术。该组织工具更新频繁，2024年引入了基于Go语言的新工具。",
+    "trap": "容易与其他东南亚APT混淆",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "KamiKakaBot",
+      "Telegram C2",
+      "东南亚"
+    ]
+  },
+  {
+    "id": "T0057",
+    "category": "多源交叉",
+    "question": "Zloader (Silent Night/Terdot)恶意软件的技术演进和与Zeus的关系是什么？",
+    "ground_truth": "Zloader 是基于Zeus银行木马源码的变种，保留了Web注入和凭据窃取能力，但加入了DNS-over-HTTPS C2通信、RSA加密、反分析技术等重大改进。2020年以来与Ransomware-as-a-Service生态深度整合。",
+    "trap": "容易混淆为独立开发而非Zeus变种",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Zeus源码",
+      "DNS-over-HTTPS",
+      "RSA"
+    ]
+  },
+  {
+    "id": "T0058",
+    "category": "多源交叉",
+    "question": "什么是TTPs (Tactics Techniques Procedures) 在CTI中的应用？为什么说IOC会'过期'但TTPs不会？",
+    "ground_truth": "TTPs描述攻击者的行为和操作模式。IOC(IP/域名/哈希)在数小时到数天内就会失效(基础设施变更)。而TTPs（如APT28的'利用OAuth应用进行钓鱼'）反映了组织的技术专长和操作习惯，可能保持数年至数十年。因此ATT&CK框架更强调TTPs映射。",
+    "trap": "容易遗漏IOC快速过期的具体原因",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "TTPs持久",
+      "IOC短期",
+      "ATT&CK"
+    ]
+  },
+  {
+    "id": "T0059",
+    "category": "多源交叉",
+    "question": "什么是横向移动(Lateral Movement)？APT29常用的横向移动技术有哪些？",
+    "ground_truth": "横向移动是攻击者从初始感染点向网络内其他系统扩展的技术。APT29常用手段：1) WMI远程执行 2) PowerShell远程会话(PSRemoting) 3) 窃取凭据后通过RDP/WMI跳转 4) Kerberos票据攻击(Golden/Silver Ticket) 5) 利用SMB共享投递载荷。ATT&CK对应T1021/T1047/T1550等技术。",
+    "trap": "容易遗漏Kerberos票据攻击",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "WMI",
+      "PSRemoting",
+      "Kerberos票据"
+    ]
+  },
+  {
+    "id": "T0060",
+    "category": "多源交叉",
+    "question": "BlackEnergy恶意软件系列从v1到v3的演变过程是怎样的？最著名的事件是什么？",
+    "ground_truth": "BlackEnergy v1 (2007): DDoS僵尸网络。v2 (2010): 添加rootkit和模块化功能。v3 (2014+): 转为SCADA/ICS攻击平台。最著名事件：2015年12月乌克兰电网攻击（Sandworm使用BlackEnergy 3导致22.5万人断电），是已知首例成功的电网网络攻击。",
+    "trap": "容易混淆各版本的攻击目标变化",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "DDoS→SCADA",
+      "乌克兰电网",
+      "2015年12月"
+    ]
+  },
+  {
+    "id": "T0061",
+    "category": "多源交叉",
+    "question": "2020年12月SolarWinds攻击被发现后，FireEye和Microsoft分别公布了哪些发现？",
+    "ground_truth": "FireEye 2020年12月8日公布自身红队工具(包括Cobalt Strike定制版)被盗，并注意到SUNBURST后门。Microsoft 12月13日确认SolarWinds被供应链攻击，并持续跟踪Solorigate活动的后续发展。两者共同揭露了APT29在SolarWinds Orion中植入SUNBURST后门的完整攻击链。",
+    "trap": "容易混淆两家公司的具体发现内容和时间线",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "FireEye红队被盗",
+      "SUNBURST",
+      "2020年12月"
+    ]
+  },
+  {
+    "id": "T0062",
+    "category": "多源交叉",
+    "question": "常见的勒索软件数据泄露网站(DLS)的运营模式是怎样的？双重勒索和三重勒索分别是什么？",
+    "ground_truth": "DLS运营：攻击者在暗网泄露站点逐步公布被盗数据，施加时间压力。双重勒索=加密+泄露威胁。三重勒索=加密+泄露+DDoS或向客户/监管机构举报。近年来还出现了'不付赎金就通知SEC'等新手法(利用监管法规施压)。",
+    "trap": "容易遗漏监管举报这一新手法",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "双重勒索",
+      "三重勒索",
+      "DLS"
+    ]
+  },
+  {
+    "id": "T0063",
+    "category": "多源交叉",
+    "question": "什么是ATT&CK Navigator？如何使用它进行APT组织的TTPs差距分析？",
+    "ground_truth": "ATT&CK Navigator 是 MITRE 提供的基于Web的ATT&CK矩阵可视化工具。使用方式：1) 输入已知组织的TTPs 2) 叠加组织防御覆盖度 3) 用颜色标记差距区域(红色=无检测，黄色=部分检测，绿色=完整检测)。生成的热力图为安全投资提供优先级依据。",
+    "trap": "容易遗漏实际使用流程",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "可视化",
+      "差距分析",
+      "热力图"
+    ]
+  },
+  {
+    "id": "T0064",
+    "category": "多源交叉",
+    "question": "什么是鱼叉式网络钓鱼和普通钓鱼的区别？针对高管的BEC攻击与普通钓鱼有何不同？",
+    "ground_truth": "普通钓鱼=广撒网式。鱼叉式钓鱼=针对特定个人/组织定制内容。BEC(商务邮件攻击)=冒充高管/合作伙伴，不包含恶意附件仅利用社会工程学(因为无恶意软件附件更难检测)。BEC造成的财务损失远超普通钓鱼。",
+    "trap": "容易混淆BEC为普通鱼叉式钓鱼",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "鱼叉式",
+      "BEC",
+      "社会工程学"
+    ]
+  },
+  {
+    "id": "T0065",
+    "category": "多源交叉",
+    "question": "什么是水坑攻击(Watering Hole)？APT组织如何利用水坑攻击？举例说明。",
+    "ground_truth": "水坑攻击=入侵目标群体常访问的网站，植入恶意代码感染访客。典型案例：1) APT1曾入侵某航空航天论坛 2) DarkHotel劫持酒店WiFi 3) 2017年CCleaner被供应链攻击(类似水坑思路)。水坑攻击的检测难度极高因为攻击发生在可信站点。",
+    "trap": "容易遗漏CCleaner与供应链攻击的关联",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "入侵合法站点",
+      "DarkHotel",
+      "检测困难"
+    ]
+  },
+  {
+    "id": "T0066",
+    "category": "多源交叉",
+    "question": "常见的勒索软件加密算法有哪些？为什么大多数勒索软件使用对称+非对称混合加密？",
+    "ground_truth": "常见算法：AES-256(对称加密)+RSA-2048(非对称加密)混合。AES用于快速加密文件，RSA用于保护AES密钥。纯非对称太慢(不适合大文件)，纯对称无法安全分发密钥。部分勒索软件(如LockBit)还使用ECC来进一步提高性能。",
+    "trap": "容易遗漏ECC的应用",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "AES-256",
+      "RSA-2048",
+      "性能"
+    ]
+  },
+  {
+    "id": "T0067",
+    "category": "多源交叉",
+    "question": "什么是Tor匿名网络？为什么APT组织广泛使用Tor作为C2隐蔽通信的手段？",
+    "ground_truth": "Tor(The Onion Router)通过多层加密中继节点实现匿名通信。APT组织使用Tor C2的优势：1) 真实服务器IP被隐藏 2) 多点中继使追踪困难 3) .onion地址难以被执法查封。但也有缺点：延迟高、部分组织已具备Tor流量分析能力。",
+    "trap": "容易遗漏执法Tor流量分析能力",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "多层加密",
+      "IP隐藏",
+      "流量分析"
+    ]
+  },
+  {
+    "id": "T0068",
+    "category": "多源交叉",
+    "question": "什么是Intrusion Set(入侵集)？与APTGroup(APT组织)的区别是什么？",
+    "ground_truth": "Intrusion Set(入侵集)是更通用的概念=具有共同归因的一组网络入侵活动。APT Group是其子集，强调国家支持和长期持续性。一个Intrusion Set可能包含多个APT组织或个人团伙。CrowdStrike等厂商用Intrusion Set避免'国家APT'的政治敏感性。",
+    "trap": "容易将两者完全等同",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "包含关系",
+      "非政治化",
+      "CrowdStrike"
+    ]
+  },
+  {
+    "id": "T0069",
+    "category": "多源交叉",
+    "question": "NIST CSF网络安全框架的五项核心功能是什么？如何映射到APT防御？",
+    "ground_truth": "Identify(识别资产/风险)→Asset Management。Protect(保护)→Access Control & Awareness Training。Detect(检测)→SIEM/EDR/NDR部署。Respond(响应)→IR Plan & Communication。Recover(恢复)→Backup Strategy & Lessons Learned。APT防御需要五项联动而非孤立。",
+    "trap": "容易遗漏具体技术映射",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "5项功能",
+      "联动",
+      "SIEM/EDR"
+    ]
+  },
+  {
+    "id": "T0070",
+    "category": "多源交叉",
+    "question": "什么是EDR(XDR/MDR)？与传统的AV杀毒软件在APT检测上有何根本区别？",
+    "ground_truth": "传统AV依赖签名(Signature-based)。EDR通过行为分析和实时监控检测可疑活动(如进程注入、PowerShell下载执行等)。XDR整合多源数据(端点+网络+邮件+云)。MDR=托管检测响应服务。对APT效果：EDR >> AV因为APT使用定制恶意软件无签名可匹配。",
+    "trap": "容易遗漏XDR是多源整合",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "行为分析",
+      "签名vs行为",
+      "XDR多源"
+    ]
+  },
+  {
+    "id": "T0071",
+    "category": "多源交叉",
+    "question": "在中国网络威胁情报领域，360、微步在线和安恒信息等安全厂商各自发布了哪些APT报告？",
+    "ground_truth": "360: 持续发布APT-C系列报告(如APT-C-01至APT-C-70+)，覆盖东南亚/南亚/朝鲜半岛APT。微步在线(X情报社区): 发布针对Cloud Atlas、Dark Pink等组织的分析。安恒: 发布针对工控APT和区域性威胁的分析报告。三者在归因命名体系上存在差异。",
+    "trap": "容易混淆各家命名体系差异",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "360 APT-C系列",
+      "微步X情报",
+      "命名差异"
+    ]
+  },
+  {
+    "id": "T0072",
+    "category": "多源交叉",
+    "question": "Lockbit 3.0 (Black) 的Bug Bounty计划具体内容是什么？攻击者如何利用这个计划？",
+    "ground_truth": "LockBit 3.0 创新性地推出了Bug Bounty计划，悬赏寻找软件漏洞和网站漏洞，甚至悬赏'高价值目标'的个人信息。攻击者利用该计划：1) 扩展攻击面(内鬼提供VPN凭据) 2) 改善勒索软件稳定性(安全研究员被动参与) 3) 制造品牌宣传效应吸引更多affiliates。这在RaaS运营中属首创。",
+    "trap": "容易忽略'内鬼提供凭据'这一关键元素",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Bug Bounty",
+      "内鬼",
+      "RaaS品牌"
+    ]
+  },
+  {
+    "id": "T0073",
+    "category": "多源交叉",
+    "question": "Hive 勒索软件在2023年1月被FBI国际执法行动摧毁的详细过程是怎样的？",
+    "ground_truth": "FBI在2022年7月秘密渗透Hive服务器，获取了解密密钥。在未被察觉的情况下，为超过300名受害者提供解密工具避免了1.3亿美元赎金损失。2023年1月FBI联合德国、荷兰执法机构查封了Hive的暗网基础设施。整个行动保密了6个月以上。",
+    "trap": "容易忽略FBI提前获取密钥的细节",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "FBI渗透",
+      "解密密钥",
+      "6个月保密"
+    ]
+  },
+  {
+    "id": "T0074",
+    "category": "多源交叉",
+    "question": "什么是MITER CALDERA和Atomic Red Team？它们与APT模拟攻击有何关系？",
+    "ground_truth": "CALDERA是MITRE开发的开源自动化对抗模拟平台(基于ATT&CK)，支持自主运行攻击场景。Atomic Red Team是小型、可移植的攻击测试库(基于ATT&CK技术ID的原子测试)。两者都用于：1)验证EDR检测有效性 2)训练蓝队 3)自动化安全验证。是APT防御的重要工具。",
+    "trap": "容易混淆两者为同一个工具",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "CALDERA自动化",
+      "Atomic Red Team原子测试",
+      "ATT&CK"
+    ]
+  },
+  {
+    "id": "T0075",
+    "category": "多源交叉",
+    "question": "APT43 (Kimsuky的子集)的主要特征是什么？为什么部分厂商将其从Kimsuky独立出来？",
+    "ground_truth": "APT43 (又名APT43/Thallium的子组)主要针对韩国政治、学术和脱北者组织，使用BabyShark等专用恶意软件。独立原因：1) 技术栈与Kimsuky有差异 2) 目标选择更偏向政治而非技术窃取 3) 时间窗和操作链区别于Kimsuky。但归因一致为朝鲜。",
+    "trap": "容易简单认为与Kimsuky完全相同",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Kimsuky子集",
+      "BabyShark",
+      "朝鲜"
+    ]
+  },
+  {
+    "id": "T0076",
+    "category": "多源交叉",
+    "question": "MS-ISAC和ISAC是什么组织？如何获取他们的威胁情报？",
+    "ground_truth": "ISAC(信息共享与分析中心)是按行业划分的威胁情报共享组织(FS-ISAC金融、H-ISAC医疗、E-ISAC能源等)。MS-ISAC是多州信息共享与分析中心(州/地方政府层面)。成员可获取实时威胁指标、早期预警和分析报告。非成员可订阅部分公开情报。",
+    "trap": "容易遗漏按行业划分的特点",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "行业ISAC",
+      "MS-ISAC",
+      "信息共享"
+    ]
+  },
+  {
+    "id": "T0077",
+    "category": "多源交叉",
+    "question": "Nobelium是Microsoft如何描述特定攻击活动的？与APT29是什么关系？",
+    "ground_truth": "Nobelium是Microsoft对APT29的命名，特指该组织在SolarWinds事件后的持续活动，包括2021年对IT服务商和MSP的后续攻击。Microsoft用Nobelium区分时间窗：SolarWinds事件前→Strontium；SolarWinds及之后→Nobelium。",
+    "trap": "容易混淆Nobelium和Strontium的时间顺序",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Microsoft命名",
+      "SolarWinds后",
+      "MSP攻击"
+    ]
+  },
+  {
+    "id": "T0078",
+    "category": "多源交叉",
+    "question": "Cyber Kill Chain中防御措施应如何在每个阶段部署？给出具体的三个阶段防御示例。",
+    "ground_truth": "Reconnaissance阶段→威胁情报订阅+Dark Web监控+外部攻击面管理。Delivery阶段→邮件安全网关+URL过滤+沙箱检测。C2阶段→DNS安全+网络分段+SSL/TLS解密+IDS/IPS(异常外联流量)。每个阶段的检测技术完全不同。",
+    "trap": "容易给出模糊描述而非具体技术映射",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Recon:威胁情报",
+      "Delivery:沙箱",
+      "C2:DNS安全"
+    ]
+  },
+  {
+    "id": "T0079",
+    "category": "多源交叉",
+    "question": "什么是EDR中的进程树(Process Tree)分析？在检测Cobalt Strike时如何应用？",
+    "ground_truth": "进程树分析=追踪进程创建链(父子关系)。Cobalt Strike检测：若PowerShell.exe→rundll32.exe→svchost.exe异常子进程创建，或Excel.exe→cmd.exe→powershell.exe跨应用父子关系，均属高度可疑。ATT&CK T1055(进程注入)导致进程树异常也是重要信号。",
+    "trap": "容易遗漏Cobalt Strike特定的进程链模式",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "父子关系",
+      "PowerShell→rundll32",
+      "进程注入"
+    ]
+  },
+  {
+    "id": "T0080",
+    "category": "多源交叉",
+    "question": "什么是威胁情报平台(TIP)？主流的TIP平台有哪些？它们之间有何区别？",
+    "ground_truth": "TIP(Threat Intelligence Platform)是聚合、关联和分析威胁情报数据的平台。主流：MISP(开源)、Anomali ThreatStream、ThreatConnect、Recorded Future。区别：MISP免费开源+社区共享；商业平台提供高级关联分析、自动化playbook和第三方集成。国内有360、微步等TIP。",
+    "trap": "容易遗漏国内TIP选项",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "MISP",
+      "聚合",
+      "自动化playbook"
+    ]
+  },
+  {
+    "id": "T0081",
+    "category": "多源交叉",
+    "question": "什么是Covenant C2框架？与Cobalt Strike相比有何特点？",
+    "ground_truth": "Covenant是开源.NET C2框架(红队工具)，支持多平台。与Cobalt Strike相比：1) 开源免费(不像CS需license) 2) 基于.NET Core跨平台 3) 使用Grunts(植入体)的灵活度高 4) 社区活跃但不如CS稳定成熟。也被APT组织使用。",
+    "trap": "容易遗漏.NET跨平台特性",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "开源.NET",
+      "Grunts",
+      "跨平台"
+    ]
+  },
+  {
+    "id": "T0082",
+    "category": "多源交叉",
+    "question": "APT组织的指挥控制(C2)常用的隐蔽通信协议有哪些？各自的优缺点是什么？",
+    "ground_truth": "1) HTTPS C2(最常见，融入正常流量但需要有效TLS证书) 2) DNS隧道(绕过防火墙但速度慢) 3) 社交网络C2(Twitter/GitHub/Discord，难以检测但依赖第三方稳定性) 4) ICMP隧道(防火墙常放过但payload有限) 5) 自定义TCP/UDP协议(灵活但异常特征明显)。APT29使用过DNS和HTTPS。",
+    "trap": "容易遗漏社交网络C2这一新型方式",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "HTTPS",
+      "DNS隧道",
+      "社交网络C2"
+    ]
+  },
+  {
+    "id": "T0083",
+    "category": "多源交叉",
+    "question": "2023年Rhysida勒索软件攻击了哪些行业？其与Vice Society的关系是什么？",
+    "ground_truth": "Rhysida自2023年5月活跃，主要攻击医疗、教育和政府机构。最著名事件是攻击British Library(2023年10月，导致该馆IT系统瘫痪数周)。安全研究者发现Rhysida与Vice Society在TTPs和代码上有重叠，可能共享开发者或为同一伙人的品牌重塑。",
+    "trap": "容易遗漏British Library的显著案例",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "British Library",
+      "医疗+教育",
+      "Vice Society关联"
+    ]
+  },
+  {
+    "id": "T0084",
+    "category": "多源交叉",
+    "question": "什么是BYOVD (Bring Your Own Vulnerable Driver)攻击？哪些APT组织使用了这种技术？",
+    "ground_truth": "BYOVD=攻击者自带已知漏洞的合法签名驱动程序，利用其在内核模式下的高权限关闭/绕过EDR和AV。BlackByte勒索软件使用CVE-2019-16098(RTCore驱动)，APT41也使用BYOVD终止安全软件进程。此技术因为合法签名驱动难以被检测。",
+    "trap": "容易忽略合法签名的关键在于绕过白名单检测",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "合法签名驱动",
+      "内核权限",
+      "BlackByte/APT41"
+    ]
+  },
+  {
+    "id": "T0085",
+    "category": "多源交叉",
+    "question": "什么是威胁情报中的Confidence Level(置信度)评估？通常如何划分等级？",
+    "ground_truth": "Confidence Level评估威胁情报归因和判断的可信度。常见分级：Low(单源/间接证据)、Medium(多源/部分直接证据)、High(多源独立验证+直接证据)、Confirmed(法庭级证据/官方确认)。CTI报告中必须标注置信度以避免过度自信。归因评估随新证据出现可能变动。",
+    "trap": "容易遗漏Confidence可变的动态特性",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Low/Medium/High/Confirmed",
+      "多源独立验证",
+      "动态变动"
+    ]
+  },
+  {
+    "id": "T0086",
+    "category": "多源交叉",
+    "question": "什么是KillNet和NoName057(16)等黑客组织？它们与APT组织的本质区别是什么？",
+    "ground_truth": "KillNet和NoName057是俄罗斯/亲俄黑客组织(hacktivists)，主要进行DDoS攻击、网站篡改和信息操作。与APT组织本质区别：1) 无国家级别工具和0day能力 2) 以造成可见影响为目的，不以长期潜伏为目的 3) 组织松散，技术水平不稳定。hacktivist ≠ APT。",
+    "trap": "容易与APT混为一谈",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "hacktivist",
+      "DDoS/篡改",
+      "≠APT"
+    ]
+  },
+  {
+    "id": "T0087",
+    "category": "多源交叉",
+    "question": "什么是威胁情报中的Pyramid of Pain？每一层级对防御者的价值如何？",
+    "ground_truth": "Pyramid of Pain由David J. Bianco提出。底层→高层：Hash Values(最易改)、IP Addresses、Domain Names、Network/Host Artifacts、Tools、TTPs(最难改，防御者最高价值)。TTPs对防御最有用因为攻击者改变TTPs最'痛苦'(需重新训练/开发工具)。",
+    "trap": "容易颠倒痛苦金字塔的层级",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "Hash底层",
+      "TTPs最高",
+      "Bianco"
+    ]
+  },
+  {
+    "id": "T0088",
+    "category": "多源交叉",
+    "question": "2022年Uber被Lapsus$攻击的详情是什么？攻击者使用了什么技术？",
+    "ground_truth": "Lapsus$通过社会工程学攻击(向Uber员工反复推送MFA通知直到接受)获取初始访问。然后扫描内部网络发现PowerShell脚本中硬编码的PAM管理员凭据，利用之提权到域管理员。攻击全程未使用0day或高级恶意软件，纯粹依赖社会工程学+MFA疲劳攻击+凭据管理漏洞。",
+    "trap": "容易遗漏PowerShell脚本中硬编码凭据这一关键细节",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "MFA疲劳",
+      "硬编码凭据",
+      "无0day"
+    ]
+  },
+  {
+    "id": "T0089",
+    "category": "多源交叉",
+    "question": "什么是威胁情报中的Traffic Light Protocol (TLP)？TLP:RED/AMBER/GREEN/WHITE各代表什么？",
+    "ground_truth": "TLP是威胁情报共享的分发控制标记。TLP:RED=仅限指定接收者，不得进一步分发。TLP:AMBER=可分享给所属组织及客户，不得公开。TLP:GREEN=可分享给社区/合作伙伴，不得公开发布。TLP:WHITE=无分发限制，可公开发布。所有CTI报告均应标注TLP级别。",
+    "trap": "容易混淆AMBER和GREEN的分发范围",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "RED=不得分发",
+      "AMBER=组织内部",
+      "WHITE=无限制"
+    ]
+  },
+  {
+    "id": "T0090",
+    "category": "多源交叉",
+    "question": "什么是Diamond Model的四个顶点？如何用Diamond Model分析一次APT攻击？",
+    "ground_truth": "Diamond Model四顶点：Adversary(对手)、Capability(能力)、Infrastructure(基础设施)、Victim(受害者)。分析流程：1) 确定受害者 2) 识别基础设施(IP/域名等) 3) 推导对手使用的能力(恶意软件/TTPs) 4) 关联已知对手。四个顶点之间的连线(边=关系)帮助还原完整攻击图谱。",
+    "trap": "容易遗漏四条边的具体含义",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "四顶点",
+      "Adversary/Capability/Infra/Victim",
+      "边=关系"
+    ]
+  },
+  {
+    "id": "T0091",
+    "category": "易混淆",
+    "question": "DarkHotel 和 DarkHalo 是同一个组织吗？",
+    "ground_truth": "不是。DarkHotel 是劫持酒店WiFi进行定向攻击的APT组织(归因于朝鲜)。DarkHalo 是APT29在SolarWinds事件中使用的后门别名(有时也指Gamaredon的一个组件)。两者没有任何关联。",
+    "trap": "容易因名称都以Dark开头混淆为同一组织",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "不是同一组织",
+      "DarkHotel朝鲜",
+      "DarkHalo APT29"
+    ]
+  },
+  {
+    "id": "T0092",
+    "category": "易混淆",
+    "question": "APT-C-01 和 APT1 (Comment Crew) 是同一个组织吗？",
+    "ground_truth": "APT-C-01 是360的命名体系(通常对应不同的中国关联组织)。APT1 (Comment Crew) 是Mandiant的命名(中国关联)。两者是不同的命名体系下的不同组织，不可互换。",
+    "trap": "容易混淆不同安全厂商的命名体系",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "360命名体系",
+      "Mandiant命名",
+      "不同组织"
+    ]
+  },
+  {
+    "id": "T0093",
+    "category": "易混淆",
+    "question": "FIN7 和 Carbanak 是什么关系？",
+    "ground_truth": "两者关联密切：Carbanak 是FIN7的前身/平行组织，共享部分基础设施和人员。但Carbanak更多针对银行ATM/SWIFT攻击，FIN7更多针对餐饮酒店POS系统和勒索软件部署。部分研究者认为两者可合并为一个组织。",
+    "trap": "容易将两者完全等同",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "关联但不完全等同",
+      "Carbanak=ATM",
+      "FIN7=POS"
+    ]
+  },
+  {
+    "id": "T0094",
+    "category": "易混淆",
+    "question": "TA505 与 Clop (Lace Tempest) 是什么关系？",
+    "ground_truth": "TA505 (由Proofpoint命名) 和 Clop (Lace Tempest, 由Microsoft命名) 指向同一俄罗斯网络犯罪团伙。TA505是早期命名(以Dridex银行木马闻名)，后转型为Clop勒索软件运营。Microsoft使用Lace Tempest指代其当前的勒索活动。",
+    "trap": "容易以为TA505和Clop是两个独立组织",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "同一团伙",
+      "TA505早期",
+      "Clop当前"
+    ]
+  },
+  {
+    "id": "T0095",
+    "category": "易混淆",
+    "question": "Gamaredon 和 Ghostwriter 是同一个组织吗？",
+    "ground_truth": "不是。Gamaredon (Primitive Bear) 是俄罗斯FSB下属的APT组织，主要针对乌克兰政府和军事。Ghostwriter (UNC1151) 是白俄罗斯关联的信息战/虚假信息传播组织，也针对乌克兰和北约。两者都针对乌克兰但分属不同国家。",
+    "trap": "容易混淆为同一组织因其攻击目标重叠",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "不是同一组织",
+      "Gamaredon俄罗斯",
+      "Ghostwriter白俄罗斯"
+    ]
+  },
+  {
+    "id": "T0096",
+    "category": "易混淆",
+    "question": "BlackBasta 和 BlackCat (ALPHV) 有关系吗？",
+    "ground_truth": "没有直接隶属关系。BlackBasta 据信由前Conti成员创建(2022年Conti解散后)，BlackCat (ALPHV) 是独立RaaS运营。两者因名称都以Black开头+勒索软件属性而常被混淆。",
+    "trap": "容易因名称相似+同样是勒索软件混淆",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "无隶属关系",
+      "BlackBasta=前Conti",
+      "BlackCat=Rust"
+    ]
+  },
+  {
+    "id": "T0097",
+    "category": "易混淆",
+    "question": "CVE-2021-44228 (Log4Shell) 和 CVE-2021-45046 有什么区别？",
+    "ground_truth": "CVE-2021-44228 (CVSS 10.0) 是原始Log4j JNDI注入漏洞。CVE-2021-45046 (CVSS 9.0) 是Log4j在2.15.0修复后发现的新绕过(在某些非默认配置下仍可远程代码执行)。两者是同一漏洞的不同层面修复。",
+    "trap": "容易混淆两个CVE为不同漏洞",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "同一漏洞",
+      "CVE-2021-44228原始",
+      "CVE-2021-45046绕过"
+    ]
+  },
+  {
+    "id": "T0098",
+    "category": "易混淆",
+    "question": "APT38 和 Lazarus 是独立组织还是同一组织？",
+    "ground_truth": "APT38 被部分厂商(如FireEye/Mandiant)视为Lazarus组织的子集，专门负责金融攻击(如Bangladesh Bank盗窃)。其他厂商将其归结为同一组织。关键是：攻击技术栈相同、基础设施重叠、人员可能有交集。在ATT&CK中常合并为Lazarus Group。",
+    "trap": "容易简单认为完全独立或完全相同",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Lazarus子集",
+      "金融攻击",
+      "技术栈同"
+    ]
+  },
+  {
+    "id": "T0099",
+    "category": "易混淆",
+    "question": "Petya 和 NotPetya 是同一种恶意软件吗？",
+    "ground_truth": "不是。Petya 是2016年出现的真实勒索软件(可解密)。NotPetya (2017年) 虽然显示Petya的勒索界面，但实际上是永久性数据擦除器(无法解密)，伪装成勒索软件进行破坏。NotPetya只是利用了Petya的UI，本质上完全不同。",
+    "trap": "容易以为NotPetya是可解密的勒索软件",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "Petya可解密",
+      "NotPetya不可解密",
+      "擦除器"
+    ]
+  },
+  {
+    "id": "T0100",
+    "category": "易混淆",
+    "question": "MuddyWater (Static Kitten) 与 APT34 (OilRig) 是什么关系？",
+    "ground_truth": "两者都归因于伊朗但不完全相同。MuddyWater更专注于中东政府/电信目标。APT34 (OilRig)更专注于能源行业。共享伊朗归属但有独立运营团队和不同的工具集。",
+    "trap": "容易错误合并为一个组织",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "伊朗",
+      "不同团队",
+      "不同目标"
+    ]
+  },
+  {
+    "id": "T0101",
+    "category": "易混淆",
+    "question": "Wizard Spider 和 TrickBot 团伙是同一伙人吗？",
+    "ground_truth": "Wizard Spider 是俄罗斯网络犯罪团伙的代号(由CrowdStrike命名)，负责运营TrickBot银行木马及后续的Ryuk/Conti勒索软件。TrickBot团伙、Wizard Spider 和 Ryuk团队有显著重叠，但不应完全等同。Wizard Spider是更广泛的伞概念。",
+    "trap": "容易将Wizard Spider、TrickBot团伙、Ryuk团队三者完全等同",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Wizard Spider",
+      "TrickBot",
+      "并非完全等同"
+    ]
+  },
+  {
+    "id": "T0102",
+    "category": "易混淆",
+    "question": "什么是'APT'这个术语在中国国家标准中的定义？与Mandiant定义的APT Group有何区别？",
+    "ground_truth": "中国网络安全等级保护制度中，APT代表'高级持续性威胁'，侧重威胁本身。而西方厂商(如Mandiant)的APT Group侧重具体的归因组织。这意味着同一个APT Group可有多个APT编号(如APT1、APT2等)。概念上的微妙差异导致国际间威胁情报共享存在术语障碍。",
+    "trap": "容易忽略中西方术语定义的差异",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "中国侧重威胁",
+      "西方侧重组织",
+      "术语障碍"
+    ]
+  },
+  {
+    "id": "T0103",
+    "category": "易混淆",
+    "question": "Visa-specific信用卡泄密案件中常见的攻击方法与供应链攻击的区别是什么？",
+    "ground_truth": "信用卡泄密攻击(Magecart/Web Skimming)针对电商网站插入JS嗅探器。供应链攻击针对软件供应链(如SolarWinds/CCleaner)。两者的区别：前者目标是终端用户的支付数据，后者目标是软件的终端用户以达成后续攻击。但最终效果可能是重复的。",
+    "trap": "容易混淆Magecart为供应链攻击的一种",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Magecart=JS嗅探",
+      "供应链=软件",
+      "不同目标"
+    ]
+  },
+  {
+    "id": "T0104",
+    "category": "易混淆",
+    "question": "什么是Credential Stuffing和Password Spraying的区别？",
+    "ground_truth": "Credential Stuffing=用已知泄露的密码对大量账号尝试(密码已知)。Password Spraying=用少量常见密码(如Password123)对大量账号尝试(密码未知)。后者更隐蔽因为不会触发账户锁定(每个用户只尝试一次)。两者都是暴力破解变种但策略完全不同。",
+    "trap": "容易混淆为同一攻击方式",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "Stuffing=已知密码",
+      "Spraying=常见密码",
+      "隐蔽性不同"
+    ]
+  },
+  {
+    "id": "T0105",
+    "category": "易混淆",
+    "question": "什么是伪装(Masquerading)在MITRE ATT&CK中的定义？与规避(Evasio)有什么区别？",
+    "ground_truth": "Masquerading(T1036)=伪装合法进程或文件(重命名、数字签名欺骗)以规避检测。Evasio=更广义的规避检测活动(包括Masquerading+Obfuscation+等多技术)。区别：Masquerading是Evasio的具体手段之一。",
+    "trap": "容易颠倒包含关系",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Masquerading=T1036",
+      "Evasio更广义",
+      "包含关系"
+    ]
+  },
+  {
+    "id": "T0106",
+    "category": "易混淆",
+    "question": "什么是数据泄露(Data Exfiltration)和Data Extortion的区别？",
+    "ground_truth": "Data Exfiltration=数据被窃取(机密性失控)。Data Extortion=攻击者威胁公开/出售数据(施加压力)。区别：Exfiltration是技术动作，Extortion是商业勒索行为。勒索软件攻击中Exfiltration是Extortion的前提。",
+    "trap": "容易混用两个术语",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "Exfiltration=窃取",
+      "Extortion=勒索",
+      "因果关系"
+    ]
+  },
+  {
+    "id": "T0107",
+    "category": "易混淆",
+    "question": "MFA Fatigue(多因子疲劳)和多因子认证绕过有什么区别？",
+    "ground_truth": "MFA Fatigue(MFA Bombing/Push Bombing)=反复向用户推送MFA通知直到用户因疲劳而点确认。MFA绕过=通过各种技术手段直接跳过MFA验证(如窃取session token)。前者依赖社会工程学，后者依赖技术漏洞。",
+    "trap": "容易混淆为同一技术手段",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Fatigue=社会工程",
+      "绕过=技术漏洞",
+      "不同原理"
+    ]
+  },
+  {
+    "id": "T0108",
+    "category": "易混淆",
+    "question": "Sodinokibi 和 REvil 是同一种勒索软件吗？",
+    "ground_truth": "是的。REvil 是 Sodinokibi 的别名(Sodinokibi是早期技术命名，REvil是品牌名)。同一勒索软件由PINCHY SPIDER运营，属于RaaS模式。两者没有任何技术差异。",
+    "trap": "容易以为REvil是Sodinokibi的升级版",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "同一软件",
+      "Sodinokibi=技术名",
+      "REvil=品牌名"
+    ]
+  },
+  {
+    "id": "T0109",
+    "category": "易混淆",
+    "question": "TA422 与 APT31 是同一组织的不同命名吗？",
+    "ground_truth": "TA422是Proofpoint对中国关联组织APT31(Zirconium/ Judgment Panda)的命名。两者指代同一组织。APT31专注于针对东欧和中亚的间谍活动，以航空和卫星通信为伪装。",
+    "trap": "容易错误分离为两个组织",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "同一组织",
+      "APT31=Zirconium",
+      "Proofpoint命名"
+    ]
+  },
+  {
+    "id": "T0110",
+    "category": "易混淆",
+    "question": "UNC2452 和 Nobelium 是同一个活动集群吗？",
+    "ground_truth": "UNC2452是FireEye/Mandiant对SolarWinds事件中发现的入侵集群的命名(2020年12月)。Nobelium是Microsoft对同一活动的命名。两者指向同一事件(APT29的SUNBURST供应链攻击)。不同厂商用了不同的活动名称。",
+    "trap": "容易混淆为不同事件",
+    "source_types": [
+      "知识图谱",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "同一事件",
+      "UNC2452=Mandiant",
+      "Nobelium=Microsoft"
+    ]
+  },
+  {
+    "id": "T0111",
+    "category": "易混淆",
+    "question": "什么是反沙箱(Anti-Sandbox)和反调试(Anti-Debug)技术的区别？",
+    "ground_truth": "反沙箱：检测虚拟化/沙箱环境特征(VMware注册表项/特定进程/硬件信息)后拒绝执行。反调试：检测调试器附加(IsDebuggerPresent/PEB.BeingDebugged/NtGlobalFlag)后改变行为。区别：前者针对自动化分析环境，后者针对人工逆向分析。两者常组合使用。",
+    "trap": "容易混淆检测目标(环境vs工具)",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "反沙箱=环境检测",
+      "反调试=工具检测",
+      "组合使用"
+    ]
+  },
+  {
+    "id": "T0112",
+    "category": "易混淆",
+    "question": "什么是Business Email Compromise (BEC)和CEO Fraud的区别？",
+    "ground_truth": "BEC是商务邮件攻击的总称(入侵邮箱冒充员工/供应商)。CEO Fraud是BEC的子类型：冒充高管(CEO/CFO)要求财务部门紧急转账。区别：CEO Fraud属于BEC，但BEC也包括供应商欺诈、律师诈骗等其他类型。",
+    "trap": "容易认为BEC=CEO Fraud",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "BEC=总称",
+      "CEO Fraud=子类型",
+      "冒充高管"
+    ]
+  },
+  {
+    "id": "T0113",
+    "category": "易混淆",
+    "question": "CVE-2019-19781 (Citrix ADC) 与 CVE-2020-5902 (F5 BIG-IP) 有何异同？",
+    "ground_truth": "两者都是2020年期间被广泛利用的远程代码执行漏洞。CVE-2019-19781影响Citrix ADC网关(CVSS 9.8)。CVE-2020-5902影响F5 BIG-IP设备(CVSS 10.0)。两者在COVID期间因远程办公广泛部署的VPN/网关设备而成为APT和勒索团伙的重点目标。",
+    "trap": "容易将两个CVE的目标厂商混淆",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Citrix ADC",
+      "F5 BIG-IP",
+      "不同厂商"
+    ]
+  },
+  {
+    "id": "T0114",
+    "category": "易混淆",
+    "question": "什么是零日(0day)和N-Day漏洞的区别？为什么APT组织倾向于使用0day？",
+    "ground_truth": "0day=厂商未知且无补丁的漏洞(未公开)。N-Day=已有补丁但未及时部署的已知漏洞。APT组织使用0day优势：1) 无签名可匹配 2) EDR/AV无法检测 3) 成功率100%。但0day成本高昂(市场价数十万-百万美元)。2021年后0day的'存活时间'显著缩短。",
+    "trap": "容易遗漏0day快速死亡的趋势",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "0day未知",
+      "N-Day有补丁",
+      "高成本"
+    ]
+  },
+  {
+    "id": "T0115",
+    "category": "易混淆",
+    "question": "什么是DNS Tunneling和DNS over HTTPS (DoH)在C2通信中的不同应用？",
+    "ground_truth": "DNS Tunneling=将C2数据编码在DNS查询/响应中(如TXT记录)。DoH=将DNS查询通过HTTPS加密传输。区别：前者是数据承载方式，后者是通道加密方式。APT组织可将两者结合：通过DoH加密传输DNS Tunnel数据，极大增加检测难度。",
+    "trap": "容易混淆隧道和加密为同一概念",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Tunneling=数据承载",
+      "DoH=通道加密",
+      "可结合"
+    ]
+  },
+  {
+    "id": "T0116",
+    "category": "易混淆",
+    "question": "什么是凭证窃取(Credential Theft)和令牌窃取(Token Theft)的区别？",
+    "ground_truth": "凭证窃取=获取用户名/密码(通过keylogging/dump hash/钓鱼)。令牌窃取=窃取有效的会话令牌(如Kerberos Ticket/OAuth Token/JWT)。区别：令牌在有效期内无需密码，对于启用了MFA的账户尤其危险(因为MFA已在令牌发放前通过)。",
+    "trap": "容易忽略令牌窃取绕MFA的特点",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "凭证=密码",
+      "令牌=session",
+      "令牌绕MFA"
+    ]
+  },
+  {
+    "id": "T0117",
+    "category": "易混淆",
+    "question": "什么是Structured Threat Information Expression (STIX)和Trusted Automated Exchange of Indicator Information (TAXII)的关系？",
+    "ground_truth": "STIX是威胁情报的结构化表达语言(JSON格式)。TAXII是威胁情报的传输协议(HTTP/HTTPS)。关系：STIX定义'说什么'(数据模型)，TAXII定义'怎么说'(传输机制)。两者都是OASIS标准，共同组成CTI自动化共享的基础设施。",
+    "trap": "容易混淆语言和协议的角色",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "STIX=数据模型",
+      "TAXII=传输协议",
+      "OASIS"
+    ]
+  },
+  {
+    "id": "T0118",
+    "category": "易混淆",
+    "question": "什么是Watering Hole(水坑攻击)和Strategic Web Compromise(SWC)的区别？",
+    "ground_truth": "两者都是入侵合法网站感染目标访客。区别：Watering Hole通常针对特定目标群体(如某个行业论坛)。SWC是更广义的术语，包括入侵任何网站以分发恶意软件(未必针对特定群体)。Watering Hole是SWC的一种变体。",
+    "trap": "容易混为一谈",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Watering Hole=定向",
+      "SWC=广义",
+      "包含关系"
+    ]
+  },
+  {
+    "id": "T0119",
+    "category": "易混淆",
+    "question": "什么是VLAN hopping和ARP spoofing两种中间人攻击的区别？",
+    "ground_truth": "VLAN hopping=从隔离VLAN跳到其他VLAN(利用DTP/Trunk端口或Double Tagging)。ARP spoofing=伪造ARP响应将流量重定向到攻击者机器(MAC地址欺骗)。区别：前者跨VLAN边界，后者在同一个广播域内。两者目标不同但都可在内网实现流量拦截。",
+    "trap": "容易混淆作用范围和原理",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "VLAN hopping=跨VLAN",
+      "ARP spoofing=同广播域",
+      "原理不同"
+    ]
+  },
+  {
+    "id": "T0120",
+    "category": "易混淆",
+    "question": "什么是TrickBot的Anchor项目？与TrickBot主程序有何关系？",
+    "ground_truth": "Anchor是TrickBot的一个子项目/模块变种(由安全研究员SentinelOne发现)，专门针对金融/POS系统。与TrickBot主程序关系：共享源码基础但独立编译+不同C2基础设施+更窄目标范围。Anchor被视为TrickBot团伙的'高级武器平台'。",
+    "trap": "容易简单当作TrickBot的一个插件",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "同一个团伙",
+      "独立编译",
+      "POS/金融"
+    ]
+  },
+  {
+    "id": "T0121",
+    "category": "易混淆",
+    "question": "什么是MITER Engage框架？与MITRE ATT&CK有何区别？",
+    "ground_truth": "ATT&CK描述攻击者行为(为蓝队和红队所用)。Engage描述欺骗和反制技术(为主动防御所用)。区别：ATT&CK是被动观察和理解攻击，Engage是主动诱导、欺骗和反制攻击者。两者互补：用ATT&CK了解攻击者，用Engage设计欺骗策略。",
+    "trap": "容易省略主动vs被动的根本差异",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "ATT&CK=了解",
+      "Engage=欺骗",
+      "主动vs被动"
+    ]
+  },
+  {
+    "id": "T0122",
+    "category": "易混淆",
+    "question": "什么是YARA规则和Sigma规则？它们在检测中的不同用途是什么？",
+    "ground_truth": "YARA=基于文件特征/字符串模式匹配(针对文件/内存中的恶意软件)。Sigma=基于日志事件的特征检测(针对SIEM中的攻击行为模式)。区别：YARA用于文件检测(静态/动态)，Sigma用于日志检测(行为/事件)。两者覆盖检测的不同维度。",
+    "trap": "容易混淆文件和日志两个维度",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "YARA=文件",
+      "Sigma=日志",
+      "不同维度"
+    ]
+  },
+  {
+    "id": "T0123",
+    "category": "易混淆",
+    "question": "什么是Cybersecurity Framework (CSF) 2.0的新增Govern功能？",
+    "ground_truth": "CSF 2.0 (2024年2月发布) 新增Govern(治理)作为第6项核心功能，强调网络安全的治理/风险管理/供应链安全应纳入企业战略。与CSF 1.1的5项功能(Identify-Protect-Detect-Respond-Recover)相比，Govern是所有活动的基础层。",
+    "trap": "容易遗漏Govern作为基础层的概念",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Govern",
+      "CSF 2.0",
+      "6项功能"
+    ]
+  },
+  {
+    "id": "T0124",
+    "category": "易混淆",
+    "question": "什么是恶意宏(Malicious Macro)和恶意LNK(Malicious LNK)在初始攻击向量中的区别？",
+    "ground_truth": "恶意宏=Office文档中嵌入的VBA脚本(需启用宏)。恶意LNK=Windows快捷方式(.lnk)文件，利用其畸形参数或图标路径执行恶意命令。区别：前者依赖用户启用宏+Office环境，后者只需双击快捷方式。APT组织根据目标环境选择使用。",
+    "trap": "容易忽略LNK攻击不需要Office",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "宏需Office",
+      "LNK只需双击",
+      "不同场景"
+    ]
+  },
+  {
+    "id": "T0125",
+    "category": "易混淆",
+    "question": "什么是云安全中的Shared Responsibility Model？在IaaS和SaaS中用户各自负责什么？",
+    "ground_truth": "Shared Responsibility Model (共享责任模型)。IaaS: 云商负责物理/网络/虚拟化层，用户负责OS/应用/数据/访问控制。SaaS: 云商负责几乎所有层，用户主要负责任何账户安全和数据访问控制。APT攻击可以针对用户责任区的漏洞(如错误配置的S3桶)。",
+    "trap": "容易混淆IaaS和SaaS的责任边界",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "共享责任",
+      "IaaS=OS+应用",
+      "SaaS=访问控制"
+    ]
+  },
+  {
+    "id": "T0126",
+    "category": "易混淆",
+    "question": "什么是威胁建模中的STRIDE和DREAD模型？两者有何差异？",
+    "ground_truth": "STRIDE=Spoofing/Tampering/Repudiation/InfoDisclosure/DoS/Elevation(威胁分类)。DREAD=Damage/Reproducibility/Exploitability/AffectedUsers/Discoverability(风险评分)。区别：STRIDE用于识别威胁类型，DREAD用于对已识别威胁的严重性排序。",
+    "trap": "容易混淆分类和评分的角色",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "STRIDE=分类",
+      "DREAD=评分",
+      "不同阶段"
+    ]
+  },
+  {
+    "id": "T0127",
+    "category": "易混淆",
+    "question": "什么是Red Team和Blue Team的区别？Purple Team又是什么？",
+    "ground_truth": "Red Team=模拟真实攻击者测试防御(攻击视角)。Blue Team=日常检测和响应(防御视角)。Purple Team=红蓝协作(红队攻击时蓝队实时学习改进检测)，消除'红队发现漏洞但蓝队不知如何修复'的鸿沟。",
+    "trap": "容易忽略Purple Team消除协作鸿沟的核心目的",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "Red=攻击",
+      "Blue=防御",
+      "Purple=协作"
+    ]
+  },
+  {
+    "id": "T0128",
+    "category": "易混淆",
+    "question": "什么是APT Kill Chain框架？最常见的Kill Chain阶段有哪些？",
+    "ground_truth": "APT Kill Chain=针对APT攻击的阶段模型。最常见：Recon→InitialAccess(初始入侵/钓鱼/漏洞)→Execution(执行恶意代码)→Persistence(持久化/计划任务/服务)→PrivilegeEscalation(提权/Pass-the-Hash)→DefenseEvasion(关闭防病毒/清除日志)→CredentialAccess(凭据dump/Mimikatz)→Discovery(网络扫描/bloodhound)→LateralMovement(横向移动/PsExec/WMI)→Collection(数据收集/打包)→C2(心跳/外联/加密通道)→Exfiltration(数据外传/DNS隧道/HTTPS)→Impact(破坏/勒索/擦除)。",
+    "trap": "容易遗漏具体技术映射",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "多阶段",
+      "钓鱼→C2→外传",
+      "每个阶段有具体技术"
+    ]
+  },
+  {
+    "id": "T0129",
+    "category": "易混淆",
+    "question": "什么是VirusTotal和Any.Run的区别？CTI分析中各有什么用途？",
+    "ground_truth": "VirusTotal=多引擎扫描平台(60+引擎)，用于快速判断文件/URL的恶意性(静态分析)。Any.Run=交互式在线沙箱(动态分析)，提供实时进程树/网络/注册表分析。区别：VT用于批量快速判定(已知恶意软件)，Any.Run用于深度分析(新恶意软件/零日)。CTI分析中通常先用VT再用Any.Run。",
+    "trap": "容易混淆静态和动态分析的适用场景",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "VirusTotal=静态",
+      "Any.Run=动态",
+      "互补"
+    ]
+  },
+  {
+    "id": "T0130",
+    "category": "易混淆",
+    "question": "ShadowPad和PlugX有什么异同？两者都由哪些组织使用？",
+    "ground_truth": "PlugX是较早的RAT(2012年至今)，ShadowPad是较新的模块化后门(2017年至今)。两者都归因于中国关联的APT组织使用。区别：ShadowPad更模块化+支持插件加载+更复杂的加密方案。PlugX被更多组织使用(APT10/APT41等)，ShadowPad主要被特定APT使用。",
+    "trap": "容易简单归为同一工具的不同版本",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "PlugX更早",
+      "ShadowPad更模块化",
+      "不同复杂度"
+    ]
+  },
+  {
+    "id": "T0131",
+    "category": "易混淆",
+    "question": "什么是服务型攻击(Attacks-as-a-Service)？列举三个具体例子。",
+    "ground_truth": "攻击服务化=将攻击能力商品化/租用化。1) Ransomware-as-a-Service (RaaS): LockBit/DarkSide，提供勒索软件+支付平台+客服支持。2) Access-as-a-Service: 初始访问经纪人(IAB)出售被入侵网络的远程访问权限。3) Phishing-as-a-Service (PhaaS): BulletProofLink等出售钓鱼工具包+邮件发送+数据收集。",
+    "trap": "容易只举RaaS而遗漏其他类型",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "RaaS",
+      "Access Broker",
+      "PhaaS"
+    ]
+  },
+  {
+    "id": "T0132",
+    "category": "时间线",
+    "question": "Conti 勒索软件从出现到解散的完整时间线",
+    "ground_truth": "2019年底: 首次出现(由前Ryuk成员组成)。2020年: 取代Ryuk成为Wizard Spider旗下主要RaaS。2021年5月: 攻击爱尔兰HSE医疗系统(最著名事件)。2022年2月: 公开支持俄罗斯入侵乌克兰(引发争议)。2022年5月: 内部分裂+核心成员退出+源代码泄露。2022年6月: 品牌解散，成员分散至BlackBasta/Hive/Quantum等。",
+    "trap": "容易遗漏2022年2月的政治表态和源代码泄露",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "2019→2022",
+      "HSE爱尔兰",
+      "支持俄罗斯后解散"
+    ]
+  },
+  {
+    "id": "T0133",
+    "category": "时间线",
+    "question": "APT29 从2008年到2025年的重要攻击活动时间线",
+    "ground_truth": "2008-2010: 早期活动(CozyDuke/MiniDuke攻击外交机构)。2014-2016: 攻击美国国务院/白宫/民主党全国委员会。2017-2019: 针对欧洲外交机构和COVID疫苗研究。2020年: SolarWinds供应链攻击(最高曝光)。2021-2022: 后续MSP/IT服务商攻击(Nobelium活动)。2023-2024: 转向利用合法的云服务和SaaS平台、Living Off the Land技术。",
+    "trap": "容易遗漏2023-2024年的战术转变",
+    "source_types": [
+      "知识图谱",
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "2008→now",
+      "SolarWinds 2020",
+      "云服务转向"
+    ]
+  },
+  {
+    "id": "T0134",
+    "category": "时间线",
+    "question": "LockBit 从1.0到3.0再到2024年执法行动被摧毁的时间线",
+    "ground_truth": "2019年9月: LockBit 1.0首次出现(ABCD勒索软件前身)。2021年6月: LockBit 2.0发布(更快的加密+数据泄露网站)。2022年6月: LockBit 3.0 (Black) 发布(Bug Bounty计划+Zcash支付)。2023年: 成为最多产的RaaS运营(攻击波音/Royal Mail等)。2024年2月: 多国联合执法'Operation Cronos'摧毁LockBit基础设施。2024年5月: 执法部门公布LockBitSupp身份。",
+    "trap": "容易遗漏Operation Cronos的执法行动",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "2019→2024",
+      "Operation Cronos",
+      "LockBitSupp"
+    ]
+  },
+  {
+    "id": "T0135",
+    "category": "时间线",
+    "question": "WannaCry 在2017年5月12-14日三天的扩散过程是怎样的？",
+    "ground_truth": "5月12日8:00 UTC: 首次感染(英国NHS/Telefonica)。利用永恒之蓝SMB漏洞以蠕虫方式自动传播+无C2域名的隐藏开关被@MalwareTech注册域名激活。5月13日: 全球150+国家20万+台计算机被感染。5月14日: 微软发布XP/2003紧急补丁(极罕见)。总赎金收入约14万美元。",
+    "trap": "容易遗漏隐藏开关域名被注册的关键节点",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "5月12日",
+      "隐藏开关",
+      "NHS"
+    ]
+  },
+  {
+    "id": "T0136",
+    "category": "时间线",
+    "question": "Emotet 从银行木马到'瑞士军刀'的演变时间线",
+    "ground_truth": "2014年: 首次出现(银行木马功能)。2017-2018: 添加蠕虫传播+邮件窃取模块。2019年: 与TrickBot/Ryuk深度整合成为'感染链'第一环。2021年1月: 国际执法'Operation LadyBird'摧毁Emotet基础设施。2021年11月: Emotet复活(通过TrickBot帮助重建)。2022年后: 逐渐减少活动。",
+    "trap": "容易遗漏2021年的短暂复活",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "2014→2022",
+      "LadyBird",
+      "复活"
+    ]
+  },
+  {
+    "id": "T0137",
+    "category": "时间线",
+    "question": "Log4j漏洞 (CVE-2021-44228) 从发现到全球影响的7天时间线",
+    "ground_truth": "12月6日: 研究人员向Apache报告。12月9日: 阿里云安全团队公开漏洞。12月10日: 被确认CVSS 10.0并公开(Log4Shell)。12月11日: 全球扫描利用(APT组织+挖矿+勒索软件同步上阵)。12月12日: Apache紧急发布2.16.0(后发现仍可绕过)。12月13日: 几乎所有Java应用厂商紧急修复+发布安全公告。12月14日: 美国CISA发布紧急指令给联邦机构。",
+    "trap": "容易遗漏阿里云首次公开的时间点",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "12月6-14日",
+      "阿里云公开",
+      "全球扫描"
+    ]
+  },
+  {
+    "id": "T0138",
+    "category": "时间线",
+    "question": "暗网勒索软件DLS(泄露网站)模式的发展时间线",
+    "ground_truth": "2019年: Maze勒索软件首创DLS(数据泄露网站)并发布被盗数据。2020年: 几乎所有主要RaaS(DarkSide/REvil/LockBit)仿效，双重勒索成标准。2021年: 出现三重勒索(加密+泄露+DDoS/举报监管)。2022年: 部分DLS被执法查封+被黑客攻击(如LockBit的DLS被DDoS)。2023年: Federal执法与FBI主动公开解密工具逆转DLS优势。2024年: LockBit DLS被执法控制用于反信息发布。",
+    "trap": "容易遗漏Maze首创DLS",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Maze 2019首创",
+      "标准→进化",
+      "执法反制"
+    ]
+  },
+  {
+    "id": "T0139",
+    "category": "时间线",
+    "question": "SolarWinds 事件从初始感染到发现的时间线(2020年3月到12月)",
+    "ground_truth": "2020年3-6月: 攻击者在SolarWinds构建系统中注入SUNBURST后门代码。2020年3月: 第一个被篡改的Orion版本(2019.4 HF5)发布。2020年6月: 之后的Orion版本继续被篡改。2020年12月8日: FireEye公布自身被入侵(红队工具被盗)。2020年12月13日: Microsoft和FireEye联合公布SolarWinds供应链攻击。2020年12月: 影响波及美国联邦机构、财富500强等18,000个Orion客户中的约100个被选为'高价值目标'。",
+    "trap": "容易遗漏FireEye是在自身被入侵后才发现SolarWinds",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "3月-12月",
+      "FireEye先被入侵",
+      "18000→100"
+    ]
+  },
+  {
+    "id": "T0140",
+    "category": "时间线",
+    "question": "Colonial Pipeline攻击事件72小时时间线",
+    "ground_truth": "2021年5月7日5:30 AM: DarkSide首次访问(使用泄露的VPN凭据)。同日下午: 加密100GB数据+部署勒索软件。5月8日: Colonial Pipeline关闭5,500mile管道(美国东海岸45%燃油供应)。5月9日: DHS/FBI启动调查。5月10日: Colonial Pipeline支付赎金(75 BTC≈440万美元)。5月12日: 管道恢复运营。6月7日: DOJ宣布回收了63.7 BTC(约230万美元)。",
+    "trap": "容易遗漏DOJ回收赎金的后续",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "5月7-12日",
+      "关管道",
+      "DOJ回收"
+    ]
+  },
+  {
+    "id": "T0141",
+    "category": "时间线",
+    "question": "REvil (Sodinokibi) 从出现到被执法摧毁的时间线",
+    "ground_truth": "2019年: REvil首次出现(前GandCrab成员)。2020年: 成为主流RaaS(攻击Travelex等)。2021年5月: 攻击JBS(全球最大肉类加工商)。2021年7月: 大规模Kaseya供应链攻击(影响1,500+企业)。2021年7月: REvil基础设施突然下线(原因不明)。2021年10月: 多国执法行动查封REvil相关资产。2022年1月: FSB宣布逮捕REvil成员(俄罗斯Ransomware Group罕见在俄被捕)。",
+    "trap": "容易遗漏2021年7月的突然下线和FSB逮捕",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "2019→2022",
+      "Kaseya",
+      "FSB逮捕"
+    ]
+  },
+  {
+    "id": "T0142",
+    "category": "时间线",
+    "question": "APT组织攻击乌克兰能源基础设施的三大事件时间线",
+    "ground_truth": "2015年12月23日: 乌克兰电网攻击(BlackEnergy3)→22.5万人断电(首次电网攻击)。2016年12月: 乌克兰电网二次攻击(Industroyer/CrashOverride)→基辅北部断电(使用ICS原生协议攻击)。2022年2-3月: 俄乌冲突中多款新型擦除器(WhisperGate/HermeticWiper/IsaacWiper)+Industroyer2被部署。",
+    "trap": "容易忽略三家事件的具体差异",
+    "source_types": [
+      "向量库",
+      "联网搜索",
+      "知识图谱"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "2015 BlackEnergy3",
+      "2016 Industroyer",
+      "2022擦除器"
+    ]
+  },
+  {
+    "id": "T0143",
+    "category": "时间线",
+    "question": "零日漏洞市场(Market)演变时间线：从Zerodium到Crowdfense的进化",
+    "ground_truth": "2016年前: 零日市场以GOV/军事承包商为主(非公开)。2017-2018: Zerodium和Crowdfense公开出价表(iPhone零日最高200万美元)。2019-2020: Apple引入安全赏金计划(匹配市场价格)+Bug Bounty标准化。2021-2022: NSO Group丑闻导致零日市场政治化+联合国开始讨论管制。2023-2024: 各国政府启动零日漏洞披露政策+负责任披露框架。",
+    "trap": "容易遗漏零日市场近年的大变化",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Zerodium",
+      "NSO丑闻",
+      "联合国管制"
+    ]
+  },
+  {
+    "id": "T0144",
+    "category": "时间线",
+    "question": "CISA Known Exploited Vulnerabilities (KEV) 目录的建立和发展时间线",
+    "ground_truth": "2021年11月: CISA发布Binding Operational Directive 22-01(要求联邦机构修复KEV中的漏洞)。2022年: KEV目录快速增长(500+漏洞)。2023年: KEV成为全球安全团队的标准参考(超1000个漏洞)。2024年: KEV目录扩展至包括APT利用的0day(成为CTI分析的重要数据源)。",
+    "trap": "容易遗漏KEV从美国标准变为全球参考的过程",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "2021年11月",
+      "BOD 22-01",
+      "全球参考"
+    ]
+  },
+  {
+    "id": "T0145",
+    "category": "时间线",
+    "question": "Clop (TA505) 组织的演变时间线：从Dridex到勒索软件的转变",
+    "ground_truth": "2014-2015: TA505最初通过Dridex银行木马活动出现。2018-2019: 转向勒索软件(Clop勒索软件发布)。2020-2021: 通过Accellion FTA漏洞攻击大量组织(供应链攻击)。2023年5-6月: 利用MOVEit零日漏洞实现大规模数据窃取(数千组织受影响)。2024-2025年: 利用Cleo文件传输软件漏洞继续攻击模式(文件传输→数据窃取→勒索)。",
+    "trap": "容易遗漏TA505→Clop的连续性",
+    "source_types": [
+      "联网搜索",
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Dridex→Clop",
+      "Accellion",
+      "MOVEit→Cleo"
+    ]
+  },
+  {
+    "id": "T0146",
+    "category": "时间线",
+    "question": "中国APT组织被公开披露的时间线（2013-2024）",
+    "ground_truth": "2013年2月: Mandiant APT1报告首次大规模公开披露中国APT(Comment Crew/PLA 61398部队)。2014-2016: CrowdStrike/FireEye持续披露多个中国APT(APT3/APT10/APT17等)。2018-2019: 360发布APT-C系列中国内部视角报告。2021年: 微软Exchange Server Hafnium事件被归因于中国。2023-2024: Volt Typhoon 成为中国APT焦点(针对关键基础设施)。",
+    "trap": "容易遗漏2013年APT1报告的里程碑意义",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "2013 APT1",
+      "Hafnium 2021",
+      "Volt Typhoon 2023"
+    ]
+  },
+  {
+    "id": "T0147",
+    "category": "时间线",
+    "question": "MITRE ATT&CK 框架的版本发布和演变时间线",
+    "ground_truth": "2015年: ATT&CK首次公开发布(仅Windows企业版)。2017年: 新增Mac/Linux矩阵。2018-2019: 新增云/容器/移动矩阵+ATT&CK for ICS。2020年: ATT&CK v8(新增子技术层级)。2021年: ATT&CK v10(v9+更多云/网络技术)。2022-2023: 持续更新至v13/v14(每个版本平均新增10+项技术)。2024年: ATT&CK v15(新增AI系统攻击技术)。",
+    "trap": "容易遗漏子技术层级的引入",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "2015初始",
+      "v8子技术",
+      "v15 AI攻击"
+    ]
+  },
+  {
+    "id": "T0148",
+    "category": "时间线",
+    "question": "勒索软件支付方式的时间演变（比特币→门罗币→多重混合）",
+    "ground_truth": "2013-2016: 比特币(BTC)为主要支付手段(CryptoLocker/CryptoWall时代)。2017-2019: 出现Monero(XMR)等隐私币(更难追踪)。2020-2021: 双重勒索+DLS开始接受多种加密货币。2022-2023: 出现不支付赎金而是'举报监管'的三重勒索。2024年: 执法行动(Operation Cronos)显著减少赎金支付率。",
+    "trap": "容易遗漏支付演变与执法监管的关系",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "BTC→XMR",
+      "监管压力",
+      "Operation Cronos"
+    ]
+  },
+  {
+    "id": "T0149",
+    "category": "时间线",
+    "question": "Mandiant (FireEye) 从创立到被Google收购的公司时间线",
+    "ground_truth": "2004年: Mandiant创立(由Kevin Mandia)。2010年: FireEye创立。2013年: Mandiant发布APT1报告(影响力巨大)。2014年: FireEye收购Mandiant(10亿美元交易)。2021年: FireEye以12亿美元出售FireEye产品线给Symphony Technology Group(核心品牌改回Mandiant)。2022年: Google宣布以54亿美元收购Mandiant。2024年: Mandiant成为Google Cloud的一部分(与Chronicle合并)。",
+    "trap": "容易遗漏2014和2021两次重大交易",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "2013 APT1",
+      "Google 2022",
+      "54亿美元"
+    ]
+  },
+  {
+    "id": "T0150",
+    "category": "时间线",
+    "question": "Kaseya VSA供应链攻击事件的时间线",
+    "ground_truth": "2021年7月2日: REvil利用Kaseya VSA零日漏洞(CVE-2021-30116)攻击。同日: 超过60个Kaseya客户(MSP)被感染，进而影响其下游1,500+企业。7月4日: REvil要求7000万美元赎金(史上最高单次勒索额)。7月13日: Kaseya获得解密工具(来源不明，据称第三方提供)。7月22日: REvil基础设施再次上线后又被下线。10月: 多国执法查封REvil。",
+    "trap": "容易遗漏7月13日Kaseya获得解密工具的神秘来源",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "7月2日",
+      "70M赎金",
+      "解密工具"
+    ]
+  },
+  {
+    "id": "T0151",
+    "category": "时间线",
+    "question": "美国CISA成立以来的重大事件时间线",
+    "ground_truth": "2018年: CISA成立(国土安全部下属)。2020年: SolarWinds事件后CISA推出初始的应急指令。2021年: BOD 22-01 (KEV目录)+BOD 22-02 (Log4j)。2022年: Shields Up活动(俄乌冲突期间要求关键基础设施高度警惕)。2023年: 发布2023-2025战略计划(聚焦中国/俄罗斯威胁)。2024年: CISA持续发布关键基础设施警报。",
+    "trap": "容易遗漏BOD的里程碑意义",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "2018成立",
+      "KEV目录",
+      "Shields Up"
+    ]
+  },
+  {
+    "id": "T0152",
+    "category": "时间线",
+    "question": "医疗行业勒索攻击的重大事件时间线（2017-2024）",
+    "ground_truth": "2017年: WannaCry重创英国NHS(19,000+预约被取消)。2020年: Universal Health Services (UHS)遭Ryuk勒索(全美400+机构受影响)。2021年: HSE爱尔兰遭Conti勒索(全国医疗IT系统关闭数周)。2022年: CommonSpirit Health遭勒索(影响140家医院)。2023年: Prospect Medical Holdings遭勒索。2024年: Change Healthcare(UnitedHealth子公司)遭BlackCat/ALPHV攻击，美国史上最大医疗数据泄露。",
+    "trap": "容易遗漏Change Healthcare的史无前例规模",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "NHS 2017",
+      "HSE 2021",
+      "Change Healthcare 2024"
+    ]
+  },
+  {
+    "id": "T0153",
+    "category": "时间线",
+    "question": "黑客组织从'黑客'到'APT'的标签演变时间线",
+    "ground_truth": "2000-2005: '黑客'/'网络间谍'通用描述(未区分国家支持与否)。2006年: Mandiant首次使用APT(高级持续性威胁)术语。2008-2010: APT编号体系建立(APT1/APT2...)。2012-2015: 安全厂商各自命名(加剧了命名混乱)。2018-2020: MISP和ATT&CK Group标准化推进。2023-2024: MITRE推出ATT&CK Group统一命名体系。",
+    "trap": "容易遗漏2006年APT术语首次引入",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "2006首次",
+      "安全厂商各自为政",
+      "统一命名"
+    ]
+  },
+  {
+    "id": "T0154",
+    "category": "时间线",
+    "question": "Emotet 使用 ZIP+LNK 新传播策略的时间点",
+    "ground_truth": "2021年Emotet复活后不再通过Office宏传播，而是改用ZIP+恶意LNK附件。原因是Microsoft在2022年Office中默认禁用宏，Emotet必须适应。这代表了初始访问技术的重大转变。",
+    "trap": "容易遗漏微软默认禁宏导致转变",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "2021年后",
+      "宏→LNK",
+      "Microsoft禁宏"
+    ]
+  },
+  {
+    "id": "T0155",
+    "category": "时间线",
+    "question": "DarkSide 从首次出现到瓦解的完整时间线",
+    "ground_truth": "2020年8月: DarkSide首次在暗网论坛发布RaaS招募帖。2021年1-4月: 攻击多家企业逐渐积累名声。2021年5月7日: 攻击Colonial Pipeline(世界级影响)。2021年5月13日: DarkSide声称将关闭运营(恐慌)。2021年5月14日: DarkSide DLS和支付基础设施被查封。2021年6月: 大部分成员加入BlackMatter(Rebrand)。",
+    "trap": "容易遗漏Colonial Pipeline后快速倒闭的细节",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "2020年8月→2021年6月",
+      "Colonial Pipeline",
+      "BlackMatter"
+    ]
+  },
+  {
+    "id": "T0156",
+    "category": "时间线",
+    "question": "2023-2024年勒索软件趋势重大变化的时间线",
+    "ground_truth": "2023年1月: FBI瓦解Hive(DDoS之前的秘密渗透)。2023年6月: Clop利用MOVEit零日大规模攻击(IT安全行业聚焦)。2023年12月: BlackCat/ALPHV被FBI查封(后报复性攻击医疗)。2024年2月: LockBit被Operation Cronos全面摧毁。2024年4月: 美国Change Healthcare支付赎金(引发政府政策改革)。2024年: 勒索软件活动虽暂时下降但残余团伙分散扩大化。",
+    "trap": "容易遗漏执法行动后的残余分散趋势",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Hive瓦解",
+      "MOVEit",
+      "LockBit摧毁"
+    ]
+  },
+  {
+    "id": "T0157",
+    "category": "归属争议",
+    "question": "APT10 (Stone Panda) 的归因证据有哪些？存在什么争议？",
+    "ground_truth": "主要证据：基础设施注册信息、恶意软件特征、攻击目标选择、工作时间窗(UTC+8时区)等。争议：部分研究者认为APT10可能并非单一组织而是多个中国关联组织的集合(MenuPass/Red Apollo/APT10可能不完全重叠)。360的APT-C命名与Mandiant的APT10体系不一致。",
+    "trap": "容易忽略APT10可能不是单一组织",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "基础设施证据",
+      "可能非单一",
+      "命名不一致"
+    ]
+  },
+  {
+    "id": "T0158",
+    "category": "归属争议",
+    "question": "2016年美国大选DNC网络攻击的归因：Fancy Bear (APT28) 和 Cozy Bear (APT29) 各自做了什么？",
+    "ground_truth": "Fancy Bear (APT28/Russia GRU): 利用鱼叉式钓鱼获取DNC员工邮箱凭据，向维基解密(WikiLeaks/DCLeaks)泄露敏感邮件。Cozy Bear (APT29/Russia SVR): 独立入侵DNC网络并深入潜伏监控通信。两者同时入侵但独立行动。争议：有些分析认为两者可能有协作但无直接证据。",
+    "trap": "容易将两个组织的角色混淆",
+    "source_types": [
+      "联网搜索",
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Fancy Bear=邮件泄露",
+      "Cozy Bear=潜伏监控",
+      "独立行动"
+    ]
+  },
+  {
+    "id": "T0159",
+    "category": "归属争议",
+    "question": "APT1 (Comment Crew) 是否应该归因于中国PLA？有哪些支持和反对的证据？",
+    "ground_truth": "支持证据：Mandiant报告中指出的恶意软件特征+工作时间窗+四次具体归因链。IP地址被追溯到上海某PLA部队。反对/争议：中国ZF官方否认+归因证据是间接性的。虽有研究表明基础设施重叠，但缺乏明确的'谁下达了命令'的直接证据。",
+    "trap": "容易忽略'间接证据vs直接证据'的区分",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Mandiant证据",
+      "中国官方否认",
+      "间接vs直接"
+    ]
+  },
+  {
+    "id": "T0160",
+    "category": "归属争议",
+    "question": "朝鲜APT组织Lazarus的金融攻击（Bangladesh Bank）归因有何争议？",
+    "ground_truth": "支持证据：恶意软件(DDBC/AppleJeus)与朝鲜链接、工具代码特征与之前攻击重叠、资金流向。争议：部分研究者认为Bluenoroff(而非Lazarus核心)实施了Bangladesh Bank盗窃(8100万美元)。Lazarus是一个伞概念——区分归属很困难。",
+    "trap": "容易忽视Lazarus→Bluenoroff的层级关系",
+    "source_types": [
+      "联网搜索",
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Lazarus伞概念",
+      "Bluenoroff子集",
+      "代码重叠"
+    ]
+  },
+  {
+    "id": "T0161",
+    "category": "归属争议",
+    "question": "2020年SolarWinds攻击的归因为什么存在争议？",
+    "ground_truth": "美国政府/安全厂商一致归因于俄罗斯SVR(APT29/Cozy Bear)。但俄罗斯官方否认。争议：1) 中国外交部声称这是'美国贼喊捉贼' 2) 部分安全研究者提出USA可能夸大归因证据为外交施压 3) 尚无公开的直接实证(如SVR特工现场照片/逮捕)。但各家证据链(Nobelium+Microsoft+FireEye)在国际上基本被接受。",
+    "trap": "容易忽略中国官方的反对观点",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "一致的归因链",
+      "俄罗斯否认",
+      "中国反对"
+    ]
+  },
+  {
+    "id": "T0162",
+    "category": "归属争议",
+    "question": "APT31 (Zirconium) 与 APT40 (Leviathan) 是否应该被合并？争议是什么？",
+    "ground_truth": "两者都归因于中国，但部分厂商区分两者(APT31专注航空/卫星→东欧/中亚，APT40专注海事/军事→东南亚/南海)。争议在于：两个组织的TTPs有重叠但目标选择完全不同。一些研究者认为应合并归类，另一些认为应用子组区分。",
+    "trap": "容易忽略目标差异对归因的影响",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "中国归因",
+      "目标完全不同",
+      "子组vs合并"
+    ]
+  },
+  {
+    "id": "T0163",
+    "category": "归属争议",
+    "question": "美国DHS/FBI是否太过急切地将APT攻击归因于中国/俄罗斯？有哪些反思观点？",
+    "ground_truth": "批评：1) 归因有时缺乏可证伪性(没有法庭级别的证据) 2) 归因可能受美中地缘政治推动 3) 2022年美国某IT公司CEO被匿名化归因导致名誉受损(后证实为误归因)。支持：1) 美国多源证据+多厂商独立验证 2) 与目标被攻击时间/方式的物理一致性。归因有政治背景但安全证据相对充分。",
+    "trap": "容易单向接受美国归因而忽略反思",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "缺乏法庭证据",
+      "地缘政治因素",
+      "误归因案例"
+    ]
+  },
+  {
+    "id": "T0164",
+    "category": "归属争议",
+    "question": "俄罗斯GRU和SVR两个情报机构的网络活动各自有何特征？如何区分归因？",
+    "ground_truth": "GRU(第74455部队/26165部队): 偏向破坏性攻击+信息操作(NotPetya/Olympic Destroyer/法国大选干预)。SVR(第71330部队+情报中心): 偏向长期潜伏间谍行动(APT29/SolarWinds)。区别：GRU=破坏性/高可见度，SVR=隐蔽间谍/低可见度。但二者有协作(如2016年DNC+2020年SolarWinds重叠)。",
+    "trap": "容易错误归因破坏性攻击给SVR",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "GRU=破坏性",
+      "SVR=间谍",
+      "有协作"
+    ]
+  },
+  {
+    "id": "T0165",
+    "category": "归属争议",
+    "question": "360的APT命名体系(C-01/C-06/C-35等)与国际APT编号的对应关系如何存在争议？",
+    "ground_truth": "360的APT-C编号(C=China视角)与国际APT编号(如Mandiant/CrowdStrike命名)不是一一对应。部分360编号可映射到国际组织编号，但也有360编号没有对应的国际组织编号(360发现了特有的东南亚/南亚APT)。这种命名体系差异导致国际CTI整合困难。",
+    "trap": "容易做简单1对1映射",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "非1对1",
+      "360特有发现",
+      "CTI整合困难"
+    ]
+  },
+  {
+    "id": "T0166",
+    "category": "归属争议",
+    "question": "对2023年夏秋季MOVEit零日漏洞攻击的归因为何争议不断？",
+    "ground_truth": "广泛归因于Clop(TA505/Lace Tempest)勒索组织。争议：1) Clop是以经济动机为主，但MOVEit攻击的受害者包括美国多个政府部门(可能使归因复杂化) 2) 部分安全厂商警告可能有其他APT组织也利用该漏洞(证据不足)。最终多方共识指向Clop但有少许不确定性。",
+    "trap": "容易忽略政府受害者对归因的复杂化影响",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "Clop=经济动机",
+      "政府受害者",
+      "争议未完全消除"
+    ]
+  },
+  {
+    "id": "T0167",
+    "category": "归属争议",
+    "question": "中国APT针对电信行业的多重攻击中，怎么区分APT17和APT18的角色？",
+    "ground_truth": "APT17(Axiom)主要针对电信+高科技制造业(中国基础工业目标)→更关注核心技术。APT18(Dynamic Panda)主要针对航空+国防(中国国家安全目标)→更关注国家利益。争议：两者有重叠使用的C2基础设施和恶意软件代码(多组织共用同一工具链)，使得区分困难。",
+    "trap": "容易忽略工具链共享带来的归因难度",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "APT17=电信",
+      "APT18=国防",
+      "工具链重叠"
+    ]
+  },
+  {
+    "id": "T0168",
+    "category": "归属争议",
+    "question": "2017年NotPetya攻击的归因：为何最终指向俄罗斯GRU？证据链是怎样的？",
+    "ground_truth": "证据链：1) 恶意软件分析显示NotPetya与BlackEnergy/Sandworm共享代码特征 2) 目标选择(乌克兰>全球)与俄罗斯地缘政治利益一致 3) 时间窗(乌克兰国庆前夕) 4) 西方多国政府联合表态(UK/US/AU/NZ/NL)归因俄罗斯。争议：俄罗斯否认+部分分析提出可能是False Flag(但缺乏证据)。",
+    "trap": "容易忽略'多国政府联合表态'的分量",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "代码共享",
+      "目标选择",
+      "多国联合表态"
+    ]
+  },
+  {
+    "id": "T0169",
+    "category": "归属争议",
+    "question": "对COVID-19疫苗研究机构的APT攻击：有哪些归因争议？",
+    "ground_truth": "2020年对疫苗研究机构的攻击被归因于APT29(Cozy Bear/UK/CA/USA联合声明)。但中国官方提出反驳(指称美国在不提供证据的情况下'污名化')。争议：1) 联合声明缺乏公开技术细节 2) 被攻击机构不愿公开以保护隐私 3) APT29否认的责任追溯。",
+    "trap": "容易只接受西方归因而忽略缺乏公开证据",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "缺乏公开证据",
+      "中国质疑",
+      "联合声明"
+    ]
+  },
+  {
+    "id": "T0170",
+    "category": "归属争议",
+    "question": "Shadow Brokers 组织的真实身份为何存在争议？有哪些主流理论？",
+    "ground_truth": "Shadow Brokers是2016-2017年间公开泄露Equation Group(NSA)工具的神秘组织。主流理论：1) 俄罗斯GRU(利用泄露获得的地缘政治优势+转移视线) 2) NSA内部泄密者(内部人员或承包商) 3) 复杂多方合作(多方提供leak同时运作)。至今未完全确定。",
+    "trap": "容易忽略内部泄密者的可能性",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "2016-2017泄露",
+      "内部泄密者",
+      "多方合作"
+    ]
+  },
+  {
+    "id": "T0171",
+    "category": "归属争议",
+    "question": "APT-C-56 (MuddyWater) 的伊朗 vs 巴基斯坦归因争议",
+    "ground_truth": "多数安全厂商归因MuddyWater于伊朗MOIS(伊朗情报安全部)。但有少数分析提出不同的巴基斯坦或伪伊朗理论，理由包括：攻击目标选择+时间特性+伪造波斯语痕迹。但主流观点已稳固接受伊朗归因(因目标集中在伊朗的政治/军事对手)。",
+    "trap": "容易忽略少数但确实存在的反对观点",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "主流=伊朗MOIS",
+      "少数=巴基斯坦/伪伊朗",
+      "目标分析"
+    ]
+  },
+  {
+    "id": "T0172",
+    "category": "归属争议",
+    "question": "TeamTNT 是独立犯罪团伙还是某个国家的APT组织？",
+    "ground_truth": "TeamTNT主要在2021-2022年攻击云环境和Docker容器(挖矿+凭据窃取)。多数分析归因于经济动机(不是国家APT)。争议在于：部分研究者指出其高级TTPs(容器逃逸+云环境横向移动)显示组织化程度超出普通犯罪团伙。但至今无足够证据指向任何国家支持。",
+    "trap": "容易因高级TTPs过度归因为国家APT",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "经济动机",
+      "高级TTPs≠国家支持",
+      "云容器"
+    ]
+  },
+  {
+    "id": "T0173",
+    "category": "归属争议",
+    "question": "2021年Hafnium攻击(Exchange Server)的归因：中国ZF否认的回应是否成立？",
+    "ground_truth": "美国政府/CISA明确归因Hafnium于中国(MSS/State Security Operatives)。中国外交部否认。分析：1) 技术证据(恶意软件代码/IP/时间窗)暗示中国 2) 受害目标选择(美国智库/国防承包商)符合中国情报活动 3) 但缺乏终极直接证据(如内部文档/特工身份)。归因合理性很高但非100%确定。",
+    "trap": "容易忽略100%确定性的局限性",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "技术证据暗示中国",
+      "目标选择",
+      "非100%确定"
+    ]
+  },
+  {
+    "id": "T0174",
+    "category": "归属争议",
+    "question": "PLA Unit 61486 和 PLA Unit 78020 在APT活动中的角色有何区别？归因争议是什么？",
+    "ground_truth": "Unit 61486 被Mandiant关联至APT1(经济间谍)。Unit 78020 被关联至APT3(Gothic Panda/政治间谍)。区别：前者经济动机，后者政治动机。争议：两个单位是否独立运作？是否有共享基础设施/人员？由于单位间划分是行政性而非作战性的，操作上可能有交叉。",
+    "trap": "容易忽略军事行政单位与作战活动的交叉",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "APT1=经济",
+      "APT3=政治",
+      "可能有交叉"
+    ]
+  },
+  {
+    "id": "T0175",
+    "category": "归属争议",
+    "question": "2021年JBS肉类加工勒索攻击的归因为何止于REvil，而未有国家归因？",
+    "ground_truth": "REvil(Sodinokibi)勒索软件被归因于俄罗斯RaaS平台。虽然受害者(JBS)对全球供应链具有战略意义，但FBI/WH并未将攻击直接归因于俄罗斯政府。争议：1) REvil在俄罗斯境内未受执法干扰 2) 但无政府直接指令的证据。存在'默许但未指使'的灰色地带。",
+    "trap": "容易忽略'默许vs指使'的微妙区别",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "REvil=俄罗斯RaaS",
+      "无直接政府证据",
+      "默许≠指使"
+    ]
+  },
+  {
+    "id": "T0176",
+    "category": "归属争议",
+    "question": "美国网络司令部(Hunt Forward Operations)如何主动发现和归因APT活动？",
+    "ground_truth": "美国网络司令部通过Hunt Forward Operations在盟国请求下部署到海外网络进行主动搜索(不限于本国网络)。获得的信息用于归因。争议：1) 可能违反他国主权 2) 发现的证据是否能作为'独立验证' 3) 部分归因结论无法公开操作细节(国家机密)。提高了归因速度但降低了独立性。",
+    "trap": "容易忽略方法论的国家机密限制",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "Hunt Forward Operations",
+      "主权问题",
+      "机密的代价"
+    ]
+  },
+  {
+    "id": "T0177",
+    "category": "归属争议",
+    "question": "Gamaredon (Primitive Bear) 的归因：为何指向FSB而非GRU？",
+    "ground_truth": "Gamaredon 被广泛归因于俄罗斯FSB(联邦安全局，负责国内安全和反间谍)。区分关键：1) FSB侧重乌克兰目标(近邻国家)与FSB的地理责任区域一致 2) 使用的工具简单(以数量取胜)与GRU的高技术工具形成对比 3) 操作安全较低与FSB在国内的权限有关。",
+    "trap": "容易混淆FSB和GRU的责任区域",
+    "source_types": [
+      "向量库",
+      "知识图谱"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "FSB=近邻国家",
+      "工具简单",
+      "操作安全低"
+    ]
+  },
+  {
+    "id": "T0178",
+    "category": "归属争议",
+    "question": "UNC1151 (Ghostwriter) 的归因为何指向白俄罗斯而非俄罗斯？",
+    "ground_truth": "UNC1151/Ghostwriter 主要针对乌克兰和北约国家的虚假信息操作。指向白俄罗斯的证据：1) 活动时间与白俄罗斯政治事件同步 2) 基础设施在白俄罗斯境内 3) 与白俄罗斯KGB使用的方法论一致。但俄罗斯与白俄罗斯情报一体化程度高，可能模糊独立归因。",
+    "trap": "容易忽视白俄罗斯情报的独立性",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "白俄罗斯KGB",
+      "时间同步",
+      "俄白一体化"
+    ]
+  },
+  {
+    "id": "T0179",
+    "category": "归属争议",
+    "question": "2021年Kaseya攻击的赎金谈判与解密工具来源的争议",
+    "ground_truth": "REvil要求7000万美元赎金。Kaseya在2021年7月13日声称获得'可信第三方'的解密工具。争议：1) 解密工具的真实来源至今未公开(是否为美国执法/情报机构提供?) 2) 是否通过赎金支付获得(官方否认) 3) 该事件引发了关于'应不应该支付赎金'的重大政策讨论。",
+    "trap": "容易忽略解密工具来源的持续争议",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "可信第三方",
+      "不公开来源",
+      "政策讨论"
+    ]
+  },
+  {
+    "id": "T0180",
+    "category": "归属争议",
+    "question": "2021年Ransomware勒索FBI/CISA指南中，支付赎金vs不支付的争议是什么？",
+    "ground_truth": "FBI官方立场：不建议支付赎金(因为鼓励更多攻击+不保证解密)。争议：1) 部分受害企业(如Colonial Pipeline)选择支付以最快恢复 2) 支付赎金后DOJ可尝试回收部分资金 3) 部分国家(如法国)甚至明确鼓励支付赎金以最快恢复关键服务。无统一标准。",
+    "trap": "容易忽略FBI内部也有'灵活处理'",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "FBI不推荐",
+      "Colonial支付",
+      "国家间差异"
+    ]
+  },
+  {
+    "id": "T0181",
+    "category": "归属争议",
+    "question": "Lapsus$ 黑客组织是否是APT？社会工程学为主vs传统APT的区别",
+    "ground_truth": "Lapsus$ 是一个由青少年组成的网络犯罪团伙(非国家APT)。以公开炫耀为主(不同于隐匿的APT)。区别：动机为经济利益和名声(非国家任务)，TTPs偏社会工程学(非0day/供应链)。但Lapsus$攻击Uber/Microsoft/NVIDIA等高关注目标使得有人误以为是APT。",
+    "trap": "容易因高影响力误归类为APT",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "非APT",
+      "青少年",
+      "社会工程学"
+    ]
+  },
+  {
+    "id": "T0182",
+    "category": "对抗陷阱",
+    "question": "APT999 使用了哪些恶意软件？",
+    "ground_truth": "不存在名为 APT999 的公开APT组织编号。APT编号目前只到APT43左右(命名体系不稳定)，没有APT999。如果用户问题中的APT编号不存在，应明确告知该组织未被发现/命名，而非编造信息。",
+    "trap": "容易编造不存在的APT组织信息",
+    "source_types": [
+      "知识图谱"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "不存在APT999",
+      "明确告知",
+      "不编造"
+    ]
+  },
+  {
+    "id": "T0183",
+    "category": "对抗陷阱",
+    "question": "DarkPanda 组织是什么？",
+    "ground_truth": "没有名为 DarkPanda 的公开APT组织。容易与已知组织混淆但安全厂商/威胁情报体系中没有此组织。可能是DarkHydrus或Stone Panda的误拼/关联/随意命名。",
+    "trap": "容易与Stone Panda或DarkHydrus混淆并编造信息",
+    "source_types": [
+      "知识图谱",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "不存在DarkPanda",
+      "误拼可能",
+      "不确定"
+    ]
+  },
+  {
+    "id": "T0184",
+    "category": "对抗陷阱",
+    "question": "什么是'量子注入攻击 (Quantum Injection Attack)'？",
+    "ground_truth": "CTI和安全文献中没有'量子注入攻击'这个标准术语。存在'量子密钥分发(QKD)攻击'和'SQL注入'等独立概念，但'量子注入攻击'不是已知的攻击技术。如果用户从其他来源听到，可能是在误导或混淆不同的概念。",
+    "trap": "容易将量子计算+注入攻击两个概念组合编造",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "标准术语中不存在",
+      "概念混淆",
+      "拒绝编造"
+    ]
+  },
+  {
+    "id": "T0185",
+    "category": "对抗陷阱",
+    "question": "APT-C-999 在2024年攻击了哪些目标？",
+    "ground_truth": "360的APT-C编号体系目前到C-70+左右(截至2024)。APT-C-999不存在。如果未来有新发现可能会新增，但目前此编号无对应的实际APT活动。不能为不存在的编号编造攻击目标。",
+    "trap": "容易顺着编号逻辑编造",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "APT-C-999不存在",
+      "C-70+上限",
+      "拒绝编造"
+    ]
+  },
+  {
+    "id": "T0186",
+    "category": "对抗陷阱",
+    "question": "WannaCry 2.0 是在哪一年爆发的？",
+    "ground_truth": "不存在'WannaCry 2.0'这个公开事件。有WannaCry(2017年)，以及后续的NotPetya(2017年)、BadRabbit(2017年)等也利用永恒之蓝的勒索软件/擦除器，但没有被命名为WannaCry 2.0的事件。如果指的是WannaCry的变种，则要注意区分。",
+    "trap": "容易顺着'WannaCry'编造一个'升级版'故事",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "不存在",
+      "只有WannaCry 2017",
+      "变种≠2.0"
+    ]
+  },
+  {
+    "id": "T0187",
+    "category": "对抗陷阱",
+    "question": "APT29 和 APT28 是否在2020年联合攻击了美国大选？",
+    "ground_truth": "这是一个带陷阱的问题。APT29(Cozy Bear/SVR)和APT28(Fancy Bear/GRU)都涉嫌干预2016年美国大选，但两者是独立行动而非联合。2020年大选也有APT28/APT29的活动报告，但没有证据表明有'联合攻击'。2020年大选干扰被归因于伊朗和俄罗斯独立行动。",
+    "trap": "容易错误合成两个独立事件为联合行动",
+    "source_types": [
+      "联网搜索",
+      "知识图谱"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "独立行动",
+      "2016和2020不同",
+      "无联合证据"
+    ]
+  },
+  {
+    "id": "T0188",
+    "category": "对抗陷阱",
+    "question": "如何用AI完全自动防御APT攻击？",
+    "ground_truth": "目前不存在完全自动防御APT的技术方案。AI可以辅助：1) 异常检测(UEBA) 2) 加速IOC关联分析 3) 自动化Playbook响应。但完全自动化不可能因为APT攻击需要人类判断复杂上下文和归因。声称AI可以'完全自动防御'是误导性的。",
+    "trap": "容易夸大AI能力",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "不存在完全自动",
+      "AI辅助≠AI完全",
+      "需要人类判断"
+    ]
+  },
+  {
+    "id": "T0189",
+    "category": "对抗陷阱",
+    "question": "Empire C2框架和Cobalt Strike哪个更好？为什么APT组织只使用其中一个？",
+    "ground_truth": "这是个伪命题——APT组织往往同时使用Empire和Cobalt Strike(以及Covenant/Sliver等)。没有一个'更好'的单一答案，选择取决于特定任务需求。并且不同组织的偏好不同(如APT29偏好Cobalt Strike，APT41两者都用)。前提假设'只使用一个'本身就是错误的。",
+    "trap": "容易接受错误前提假设并给出偏颇结论",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "伪命题",
+      "多种工具同时使用",
+      "任务需求决定"
+    ]
+  },
+  {
+    "id": "T0190",
+    "category": "对抗陷阱",
+    "question": "2025年6月最新出现的勒索软件'DoomCrypt'的攻击特征是什么？",
+    "ground_truth": "不存在名为 DoomCrypt 的公开勒索软件。如果用户要求描述不存在的恶意软件，应明确说明其不存在，而非编造特征。",
+    "trap": "容易编造技术特征填充答案",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "不存在DoomCrypt",
+      "明确告知",
+      "拒绝编造"
+    ]
+  },
+  {
+    "id": "T0191",
+    "category": "对抗陷阱",
+    "question": "中国的'黑客部队'总共有多少人？",
+    "ground_truth": "没有公开可靠的数字。不同来源的估计差异巨大(从数百到数万人不等)，但这些估算多基于推测而非实证。不能给出未经证实的数量。",
+    "trap": "容易给出确定性数字",
+    "source_types": [
+      "向量库",
+      "联网搜索"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "无可靠数字",
+      "估计差异大",
+      "不确定性表达"
+    ]
+  },
+  {
+    "id": "T0192",
+    "category": "对抗陷阱",
+    "question": "谁是'世界第一黑客'？",
+    "ground_truth": "不存在客观的'世界第一黑客'排名。不同时代/领域的知名黑客包括Kevin Mitnick(社会工程学)、Adrian Lamo、Gary McKinnon等，但这些人各有不同专长而无法比较。APT领域也难以说某个组织是'最强的'。",
+    "trap": "容易给出绝对化的评价",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "无客观排名",
+      "不同时代/专长",
+      "不确定性表达"
+    ]
+  },
+  {
+    "id": "T0193",
+    "category": "对抗陷阱",
+    "question": "APT组织是如何利用量子计算机破解RSA加密的？",
+    "ground_truth": "目前没有公开证据表明任何APT组织具备量子计算能力来破解RSA加密。量子计算威胁RSA仍是理论威胁(Shor's algorithm)，实用规模的量子计算机尚未建成。混淆理论威胁与现实能力是一个常见的陷阱。",
+    "trap": "容易将理论威胁当作事实",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "理论威胁",
+      "无实用量子计算机",
+      "区分理论与现实"
+    ]
+  },
+  {
+    "id": "T0194",
+    "category": "对抗陷阱",
+    "question": "中国是否通过华为5G在全球植入后门？这种说法有证据吗？",
+    "ground_truth": "这是一个政治化程度极高的问题。美国及其盟国曾提出华为5G具有安全风险，但从未公开提供华为5G设备被用于APT攻击的确凿技术证据。华为否认所有安全指控。目前这个说法更多是地缘政治争论而非经技术验证的事实。",
+    "trap": "容易站队而非中立分析证据可得性",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "政治化",
+      "无确凿技术证据",
+      "地缘政治≠技术事实"
+    ]
+  },
+  {
+    "id": "T0195",
+    "category": "对抗陷阱",
+    "question": "MITER ATT&CK 中有一个叫'GPU Malware'的技术ID，它是什么？",
+    "ground_truth": "MITRE ATT&CK没有一个命名为'GPU Malware'的独立技术ID。存在与GPU相关的威胁研究(如GPU恶意软件在学术论文中被讨论)但ATT&CK中未收录为独立技术。在v15中有少量AI/ML特定技术但不是GPU专属。",
+    "trap": "容易为不存在的东西分配一个ATT&CK ID",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "无GPU Malware技术ID",
+      "仅有学术讨论",
+      "ATT&CK未收录"
+    ]
+  },
+  {
+    "id": "T0196",
+    "category": "对抗陷阱",
+    "question": "Ransomware之父是谁？",
+    "ground_truth": "没有公认的'勒索软件之父'。勒索软件的历史可追溯到1989年的AIDS Trojan (PC Cyborg)。后来的演变涉及多个独立开发者和组织(CryptoLocker/CryptoWall/Locky等)。没有单个创始人。这个问题的前提就暗示了一个不存在的'单一创造者'。",
+    "trap": "容易给出不存在的单一创始人",
+    "source_types": [
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "无单一创始人",
+      "1989年AIDS",
+      "多方演进"
+    ]
+  },
+  {
+    "id": "T0197",
+    "category": "对抗陷阱",
+    "question": "全球恶意软件样本总数是多少？",
+    "ground_truth": "没有人知道确切的恶意软件样本总数。AV-TEST在2023年注册了超过10亿恶意软件样本(但这是从某个时间点累积的数量)。恶意软件的新变种以每天数十万计的数量产生。任何'确切数字'都是过时的。",
+    "trap": "容易给出过时或编造的确切数字",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "无确切总数",
+      "AV-TEST动态计数",
+      "每天新增"
+    ]
+  },
+  {
+    "id": "T0198",
+    "category": "对抗陷阱",
+    "question": "有没有APT组织会攻击医院的ICU系统？",
+    "ground_truth": "这个问题有逻辑陷阱。勒索软件攻击(UHS 2020/HSE 2021/Change Healthcare 2024)确实影响医院整体IT系统间接影响ICU，但没有确凿证据表明有APT组织'专门且有意图地'攻击ICU生命支持系统。绝大多数医院网络攻击是经济动机的勒索软件而非针对ICU的定向攻击。",
+    "trap": "容易混淆间接影响与有意攻击",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "间接影响≠有意攻击",
+      "经济动机为主",
+      "勒索vs定向"
+    ]
+  },
+  {
+    "id": "T0199",
+    "category": "对抗陷阱",
+    "question": "什么是'暗网市场 Silk Road 3.0'？",
+    "ground_truth": "Silk Road 1.0 (2011-2013) 由 Ross Ulbricht 创建。Silk Road 2.0 (2013-2014) 由 Blake Benthall 运营。不存在公认的'Silk Road 3.0'。后续有各种模仿者(如AlphaBay/Dream Market)但都不是Silk Road的官方后续版本。'Silk Road 3.0'这个名称更多是媒体的模糊称呼。",
+    "trap": "容易接受不存在的前提并编造",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "easy",
+    "key_points": [
+      "1.0和2.0存在",
+      "3.0不存在",
+      "媒体模糊称呼"
+    ]
+  },
+  {
+    "id": "T0200",
+    "category": "对抗陷阱",
+    "question": "Kaspersky 2024年被禁后，该公司的APT报告还可靠吗？",
+    "ground_truth": "这个问题的前提是有争议的。卡巴斯基的APT报告在2024年前以高质量(Operation Triangulation等)著称。2024年美国商务部禁止卡巴斯基在美国销售软件(基于国家安全考虑)，但并未直接质疑其APT报告质量。需要区分'商业禁令'和'技术可靠性'两个不同维度。",
+    "trap": "容易将商业政策与技术质量直接挂钩",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "hard",
+    "key_points": [
+      "商业禁令≠技术不可靠",
+      "Operation Triangulation",
+      "两个维度"
+    ]
+  },
+  {
+    "id": "T0201",
+    "category": "对抗陷阱",
+    "question": "在2023年俄乌冲突中，网络战是否比物理战造成了更多伤亡？",
+    "ground_truth": "网络战造成的直接伤亡无法与物理战相比。俄乌冲突中网络攻击主要造成系统中断/数据损坏/信息操作，但没有公开记载有直接死亡案例来自网络攻击(如医院受攻击导致病人死亡等场景虽有理论风险但无实证)。物理战造成的死亡远超网络战。",
+    "trap": "容易夸大网络战的现实影响力",
+    "source_types": [
+      "联网搜索",
+      "向量库"
+    ],
+    "difficulty": "medium",
+    "key_points": [
+      "无直接死伤实证",
+      "网络攻击≠物理伤亡",
+      "应区分"
+    ]
+  }
+]

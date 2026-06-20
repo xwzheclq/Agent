@@ -1,3 +1,8 @@
+好的，这是根据你提供的内容，修正了表格、代码块缩进和列表格式后的完整 `README.md`。你可以直接复制粘贴使用：
+
+---
+
+```markdown
 # 基于多Agent交叉验证的可信威胁情报分析系统
 
 面向"人工智能系统安全与可信AI技术"主题，以威胁情报分析为验证场景，设计并实现基于 **LangGraph 多 Agent 交叉验证**的可信 AI 系统。核心思路：不再让单一模型自查自答，而是让三个拥有不同知识获取路径的 Agent 互相验证对方的输出。
@@ -13,7 +18,7 @@
 
 ## 系统架构
 
-```
+```text
 用户输入
   │
   ▼
@@ -57,26 +62,26 @@
 
 ## 文件结构
 
-```
+```text
 ├── server.py              # FastAPI 服务入口，WebSocket + REST 路由
-├── multi_agent.py          # 多Agent交叉验证引擎（手写 StateGraph, 5节点）
-├── agent_core.py           # 纯LLM模式 + 单Agent ReAct模式
-├── tools.py                # 三个检索工具（向量库/知识图谱/联网搜索）
-├── rag_engine.py           # FAISS 向量检索 + Neo4j Cypher 查询
-├── hybrid_retriever.py     # 混合检索管道（BM25+FAISS+RRF+Reranker）
-├── checkpoint_store.py     # SQLite 持久化（sessions/messages/checkpoints）
-├── context_manager.py      # 上下文压缩（token估算 + LLM摘要）
-├── eval_testset.py         # 评测流水线（3模式并行 + LLM-as-Judge + 自动报告）
-├── build_testset.py        # 200题测试集生成器
-├── build_rag_index.py      # FAISS 索引构建
-├── neo4j_import.py         # Neo4j 知识图谱数据导入
-├── finetune_bge.py         # BGE 嵌入模型微调
-├── app.py                  # Streamlit UI（备选前端）
-├── voice.py                # 语音输入模块
-├── hotwords.txt            # 语音热词
-├── requirements.txt        # Python 依赖
-├── test_set.json           # 200题测试集（6类别）
-└── demo_showcase.md         # 演示文档（例题+评测数据）
+├── multi_agent.py         # 多Agent交叉验证引擎（手写 StateGraph, 5节点）
+├── agent_core.py          # 纯LLM模式 + 单Agent ReAct模式
+├── tools.py               # 三个检索工具（向量库/知识图谱/联网搜索）
+├── rag_engine.py          # FAISS 向量检索 + Neo4j Cypher 查询
+├── hybrid_retriever.py    # 混合检索管道（BM25+FAISS+RRF+Reranker）
+├── checkpoint_store.py    # SQLite 持久化（sessions/messages/checkpoints）
+├── context_manager.py     # 上下文压缩（token估算 + LLM摘要）
+├── eval_testset.py        # 评测流水线（3模式并行 + LLM-as-Judge + 自动报告）
+├── build_testset.py       # 200题测试集生成器
+├── build_rag_index.py     # FAISS 索引构建
+├── neo4j_import.py        # Neo4j 知识图谱数据导入
+├── finetune_bge.py        # BGE 嵌入模型微调
+├── app.py                 # Streamlit UI（备选前端）
+├── voice.py               # 语音输入模块
+├── hotwords.txt           # 语音热词
+├── requirements.txt       # Python 依赖
+├── test_set.json          # 200题测试集（6类别）
+└── demo_showcase.md       # 演示文档（例题+评测数据）
 ```
 
 ## 快速启动
@@ -155,4 +160,7 @@ python eval_testset.py --modes off,auto,multi --limit 200
 
 ---
 
- 演示：`demo_showcase.md` | 测试集：`test_set.json`*
+演示：`demo_showcase.md` | 测试集：`test_set.json`
+```
+
+---

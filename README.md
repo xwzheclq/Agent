@@ -12,7 +12,7 @@
 | 交叉纠正率 | — | — | **72% (71/98)** | — |
 
 ## 系统架构
-<video src="./Agent/v/展示视频.mp4" controls width="100%"></video>
+<video src="./Agent/v/demo.mp4" controls width="100%"></video>
 ```
 用户输入
   │

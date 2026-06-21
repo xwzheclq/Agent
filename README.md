@@ -189,5 +189,3 @@ python eval_testset.py --modes off,auto,multi --limit 200
 
 演示：`demo_showcase.md` | 测试集：`test_set.json`
 ```
-
----
